@@ -1,0 +1,177 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 74xx_74LV8154
+#
+DEF 74xx_74LV8154 U 0 20 Y Y 1 F N
+F0 "U" -250 650 50 H V C CNN
+F1 "74xx_74LV8154" 250 650 50 H V C CNN
+F2 "" -250 650 50 H I C CNN
+F3 "" -250 650 50 H I C CNN
+$FPLIST
+ TSSOP*4.4x6.5mm*P0.65mm*
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+S -300 600 300 -600 0 1 10 f
+X CKLA 1 -400 500 100 R 50 50 1 1 I
+X GND 10 0 -700 100 U 50 50 1 1 W
+X ~CCLR 11 -400 -300 100 R 50 50 1 1 I
+X Y7 12 400 -200 100 L 50 50 1 1 O
+X Y6 13 400 -100 100 L 50 50 1 1 O
+X Y5 14 400 0 100 L 50 50 1 1 O
+X Y4 15 400 100 100 L 50 50 1 1 O
+X Y3 16 400 200 100 L 50 50 1 1 O
+X Y2 17 400 300 100 L 50 50 1 1 O
+X Y1 18 400 400 100 L 50 50 1 1 O
+X Y0 19 400 500 100 L 50 50 1 1 O
+X CLKB 2 -400 400 100 R 50 50 1 1 I
+X VCC 20 0 700 100 D 50 50 1 1 W
+X ~GAL 3 -400 300 100 R 50 50 1 1 I
+X ~GAU 4 -400 200 100 R 50 50 1 1 I
+X ~GBL 5 -400 100 100 R 50 50 1 1 I
+X ~GBU 6 -400 0 100 R 50 50 1 1 I
+X RCLK 7 -400 -200 100 R 50 50 1 1 I
+X ~RCOA 8 400 -400 100 L 50 50 1 1 O
+X ~CLKBEN 9 -400 -400 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Varistor
+#
+DEF Device_Varistor RV 0 0 N Y 1 F N
+F0 "RV" 125 0 50 V V C CNN
+F1 "Device_Varistor" -125 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ RV_*
+ Varistor*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+S -40 -100 40 100 0 1 10 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Interface-I-O-Expanders_MCP23008-E_P
+#
+DEF dk_Interface-I-O-Expanders_MCP23008-E_P U 0 40 Y Y 1 F N
+F0 "U" -300 650 60 H V C CNN
+F1 "dk_Interface-I-O-Expanders_MCP23008-E_P" -100 -200 60 V V C CNN
+F2 "digikey-footprints:DIP-18_W7.62mm" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" 200 300 60 H I L CNN
+F4 "MCP23008-E/P-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MCP23008-E/P" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Interface - I/O Expanders" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC I/O EXPANDER I2C 8B 18DIP" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -400 600 200 -900 0 1 0 f
+X SCL 1 -500 -400 100 R 50 50 1 1 I
+X GP0 10 -500 500 100 R 50 50 1 1 B
+X GP1 11 -500 400 100 R 50 50 1 1 B
+X GP2 12 -500 300 100 R 50 50 1 1 B
+X GP3 13 -500 200 100 R 50 50 1 1 B
+X GP4 14 -500 100 100 R 50 50 1 1 B
+X GP5 15 -500 0 100 R 50 50 1 1 B
+X GP6 16 -500 -100 100 R 50 50 1 1 B
+X GP7 17 -500 -200 100 R 50 50 1 1 B
+X VDD 18 -100 700 100 D 50 50 1 1 W
+X SDA 2 -500 -300 100 R 50 50 1 1 B
+X A2 3 -500 -500 100 R 50 50 1 1 I
+X A1 4 -500 -600 100 R 50 50 1 1 I
+X A0 5 -500 -700 100 R 50 50 1 1 I
+X ~RESET 6 -500 -800 100 R 50 50 1 1 I
+X NC 7 300 100 100 L 50 50 1 1 N
+X INT 8 300 300 100 L 50 50 1 1 O
+X VSS 9 0 -1000 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dk_LED-Indication-Discrete_151033RS03000
+#
+DEF dk_LED-Indication-Discrete_151033RS03000 D 0 0 Y Y 1 F N
+F0 "D" -150 150 60 H V C CNN
+F1 "dk_LED-Indication-Discrete_151033RS03000" 0 -150 60 H V C CNN
+F2 "digikey-footprints:LED_3mm_Radial" 200 200 60 H I L CNN
+F3 "https://katalog.we-online.de/led/datasheet/151033RS03000.pdf" 200 300 60 H I L CNN
+F4 "732-5013-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "151033RS03000" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "https://katalog.we-online.de/led/datasheet/151033RS03000.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED RED CLEAR 3MM ROUND T/H" 200 1000 60 H I L CNN "Description"
+F11 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Optoisolators-Transistor-Photovoltaic-Output_LTV-817
+#
+DEF dk_Optoisolators-Transistor-Photovoltaic-Output_LTV-817 U 0 40 Y Y 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "dk_Optoisolators-Transistor-Photovoltaic-Output_LTV-817" 0 -225 60 H V C CNN
+F2 "digikey-footprints:DIP-4_W7.62mm" 200 200 60 V I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf" 200 300 60 V I L CNN
+F4 "160-1366-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LTV-817" 200 500 60 H I L CNN "MPN"
+F6 "Isolators" 200 600 60 H I L CNN "Category"
+F7 "Optoisolators - Transistor, Photovoltaic Output" 200 700 60 H I L CNN "Family"
+F8 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/lite-on-inc/LTV-817/160-1366-5-ND/385836" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "OPTOISOLATR 5KV TRANSISTOR 4-DIP" 200 1000 60 H I L CNN "Description"
+F11 "Lite-On Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -150 150 150 -150 0 1 0 f
+P 2 0 1 0 -100 -25 -50 -25 N
+P 2 0 1 0 25 75 25 -75 N
+P 3 0 1 0 -150 -100 -75 -100 -75 -25 N
+P 3 0 1 0 -150 100 -75 100 -75 25 N
+P 3 0 1 0 25 -50 100 -100 150 -100 N
+P 3 0 1 0 25 50 100 100 150 100 N
+P 4 0 1 0 -100 25 -50 25 -75 -25 -100 25 F
+P 4 0 1 0 85 -90 70 -65 55 -85 85 -90 F
+X ~ 1 -300 100 150 R 50 50 1 1 P
+X ~ 2 -300 -100 150 R 50 50 1 1 P
+X ~ 3 300 -100 150 L 50 50 1 1 P
+X ~ 4 300 100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

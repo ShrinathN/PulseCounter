@@ -1,0 +1,3 @@
+[submodule "PulseCounter_Hardware/digikey-kicad-library"]
+	path = PulseCounter_Hardware/digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library
