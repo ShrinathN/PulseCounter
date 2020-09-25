@@ -18,8 +18,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F726121
 P 10350 3600
 AR Path="/5F726121" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726121" Ref="U27"  Part="1" 
-F 0 "U27" H 10150 4500 50  0000 C CNN
+AR Path="/5F71652A/5F726121" Ref="U29"  Part="1" 
+F 0 "U29" H 10150 4500 50  0000 C CNN
 F 1 "74LV8154" H 10100 4400 50  0000 C CNN
 F 2 "" H 10100 4250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 4250 50  0001 C CNN
@@ -31,8 +31,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726130
 P 12000 3600
 AR Path="/5F726130" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726130" Ref="U31"  Part="1" 
-F 0 "U31" H 11700 4350 60  0000 C CNN
+AR Path="/5F71652A/5F726130" Ref="U33"  Part="1" 
+F 0 "U33" H 11700 4350 60  0000 C CNN
 F 1 "MCP23008-E_P" H 12000 4450 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 3800 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 3900 60  0001 L CNN
@@ -145,8 +145,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72616D
 P 12000 1500
 AR Path="/5F72616D" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72616D" Ref="U30"  Part="1" 
-F 0 "U30" H 11700 2250 60  0000 C CNN
+AR Path="/5F71652A/5F72616D" Ref="U32"  Part="1" 
+F 0 "U32" H 11700 2250 60  0000 C CNN
 F 1 "MCP23008-E_P" H 12000 2350 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 1700 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 1800 60  0001 L CNN
@@ -167,8 +167,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F726173
 P 10350 1500
 AR Path="/5F726173" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726173" Ref="U26"  Part="1" 
-F 0 "U26" H 10150 2400 50  0000 C CNN
+AR Path="/5F71652A/5F726173" Ref="U28"  Part="1" 
+F 0 "U28" H 10150 2400 50  0000 C CNN
 F 1 "74LV8154" H 10100 2300 50  0000 C CNN
 F 2 "" H 10100 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 2150 50  0001 C CNN
@@ -216,8 +216,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F72618B
 P 7350 1500
 AR Path="/5F72618B" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72618B" Ref="U18"  Part="1" 
-F 0 "U18" H 7150 2400 50  0000 C CNN
+AR Path="/5F71652A/5F72618B" Ref="U20"  Part="1" 
+F 0 "U20" H 7150 2400 50  0000 C CNN
 F 1 "74LV8154" H 7100 2300 50  0000 C CNN
 F 2 "" H 7100 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7100 2150 50  0001 C CNN
@@ -229,8 +229,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72619A
 P 9000 1500
 AR Path="/5F72619A" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72619A" Ref="U22"  Part="1" 
-F 0 "U22" H 8700 2250 60  0000 C CNN
+AR Path="/5F71652A/5F72619A" Ref="U24"  Part="1" 
+F 0 "U24" H 8700 2250 60  0000 C CNN
 F 1 "MCP23008-E_P" H 9000 2350 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 9200 1700 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9200 1800 60  0001 L CNN
@@ -299,8 +299,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F7261B8
 P 4500 1500
 AR Path="/5F7261B8" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7261B8" Ref="U10"  Part="1" 
-F 0 "U10" H 4300 2400 50  0000 C CNN
+AR Path="/5F71652A/5F7261B8" Ref="U12"  Part="1" 
+F 0 "U12" H 4300 2400 50  0000 C CNN
 F 1 "74LV8154" H 4250 2300 50  0000 C CNN
 F 2 "" H 4250 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 2150 50  0001 C CNN
@@ -312,8 +312,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7261C7
 P 6150 1500
 AR Path="/5F7261C7" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7261C7" Ref="U14"  Part="1" 
-F 0 "U14" H 5850 2250 60  0000 C CNN
+AR Path="/5F71652A/5F7261C7" Ref="U16"  Part="1" 
+F 0 "U16" H 5850 2250 60  0000 C CNN
 F 1 "MCP23008-E_P" H 6150 2350 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 1700 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 1800 60  0001 L CNN
@@ -432,8 +432,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726207
 P 3150 1500
 AR Path="/5F726207" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726207" Ref="U6"  Part="1" 
-F 0 "U6" H 2850 2250 60  0000 C CNN
+AR Path="/5F71652A/5F726207" Ref="U8"  Part="1" 
+F 0 "U8" H 2850 2250 60  0000 C CNN
 F 1 "MCP23008-E_P" H 3150 2350 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 1700 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 1800 60  0001 L CNN
@@ -454,8 +454,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F72620D
 P 1500 1500
 AR Path="/5F72620D" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72620D" Ref="U1"  Part="1" 
-F 0 "U1" H 1300 2400 50  0000 C CNN
+AR Path="/5F71652A/5F72620D" Ref="U4"  Part="1" 
+F 0 "U4" H 1300 2400 50  0000 C CNN
 F 1 "74LV8154" H 1250 2300 50  0000 C CNN
 F 2 "" H 1250 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 2150 50  0001 C CNN
@@ -469,8 +469,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F726214
 P 1500 3600
 AR Path="/5F726214" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726214" Ref="U2"  Part="1" 
-F 0 "U2" H 1300 4500 50  0000 C CNN
+AR Path="/5F71652A/5F726214" Ref="U5"  Part="1" 
+F 0 "U5" H 1300 4500 50  0000 C CNN
 F 1 "74LV8154" H 1250 4400 50  0000 C CNN
 F 2 "" H 1250 4250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 4250 50  0001 C CNN
@@ -482,8 +482,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726223
 P 3150 3600
 AR Path="/5F726223" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726223" Ref="U7"  Part="1" 
-F 0 "U7" H 2750 4300 60  0000 C CNN
+AR Path="/5F71652A/5F726223" Ref="U9"  Part="1" 
+F 0 "U9" H 2750 4300 60  0000 C CNN
 F 1 "MCP23008-E_P" H 2550 4400 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 3800 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 3900 60  0001 L CNN
@@ -598,8 +598,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726261
 P 6150 3600
 AR Path="/5F726261" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726261" Ref="U15"  Part="1" 
-F 0 "U15" H 5850 4350 60  0000 C CNN
+AR Path="/5F71652A/5F726261" Ref="U17"  Part="1" 
+F 0 "U17" H 5850 4350 60  0000 C CNN
 F 1 "MCP23008-E_P" H 6150 4450 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 3800 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 3900 60  0001 L CNN
@@ -620,8 +620,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F726267
 P 4500 3600
 AR Path="/5F726267" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726267" Ref="U11"  Part="1" 
-F 0 "U11" H 4300 4500 50  0000 C CNN
+AR Path="/5F71652A/5F726267" Ref="U13"  Part="1" 
+F 0 "U13" H 4300 4500 50  0000 C CNN
 F 1 "74LV8154" H 4250 4400 50  0000 C CNN
 F 2 "" H 4250 4250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 4250 50  0001 C CNN
@@ -681,8 +681,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72628E
 P 9100 3600
 AR Path="/5F72628E" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72628E" Ref="U24"  Part="1" 
-F 0 "U24" H 8800 4350 60  0000 C CNN
+AR Path="/5F71652A/5F72628E" Ref="U26"  Part="1" 
+F 0 "U26" H 8800 4350 60  0000 C CNN
 F 1 "MCP23008-E_P" H 9100 4450 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 9300 3800 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9300 3900 60  0001 L CNN
@@ -703,8 +703,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F726294
 P 7450 3600
 AR Path="/5F726294" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726294" Ref="U20"  Part="1" 
-F 0 "U20" H 7250 4500 50  0000 C CNN
+AR Path="/5F71652A/5F726294" Ref="U22"  Part="1" 
+F 0 "U22" H 7250 4500 50  0000 C CNN
 F 1 "74LV8154" H 7200 4400 50  0000 C CNN
 F 2 "" H 7200 4250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7200 4250 50  0001 C CNN
@@ -716,8 +716,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F72629A
 P 10350 7800
 AR Path="/5F72629A" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72629A" Ref="U29"  Part="1" 
-F 0 "U29" H 10150 8700 50  0000 C CNN
+AR Path="/5F71652A/5F72629A" Ref="U31"  Part="1" 
+F 0 "U31" H 10150 8700 50  0000 C CNN
 F 1 "74LV8154" H 10100 8600 50  0000 C CNN
 F 2 "" H 10100 8450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 8450 50  0001 C CNN
@@ -797,8 +797,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7262CB
 P 12000 5700
 AR Path="/5F7262CB" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262CB" Ref="U32"  Part="1" 
-F 0 "U32" H 11700 6450 60  0000 C CNN
+AR Path="/5F71652A/5F7262CB" Ref="U34"  Part="1" 
+F 0 "U34" H 11700 6450 60  0000 C CNN
 F 1 "MCP23008-E_P" H 12000 6550 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 5900 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 6000 60  0001 L CNN
@@ -819,8 +819,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F7262D1
 P 10350 5700
 AR Path="/5F7262D1" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262D1" Ref="U28"  Part="1" 
-F 0 "U28" H 10150 6600 50  0000 C CNN
+AR Path="/5F71652A/5F7262D1" Ref="U30"  Part="1" 
+F 0 "U30" H 10150 6600 50  0000 C CNN
 F 1 "74LV8154" H 10100 6500 50  0000 C CNN
 F 2 "" H 10100 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 6350 50  0001 C CNN
@@ -868,8 +868,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F7262E9
 P 7350 5700
 AR Path="/5F7262E9" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262E9" Ref="U19"  Part="1" 
-F 0 "U19" H 7150 6600 50  0000 C CNN
+AR Path="/5F71652A/5F7262E9" Ref="U21"  Part="1" 
+F 0 "U21" H 7150 6600 50  0000 C CNN
 F 1 "74LV8154" H 7100 6500 50  0000 C CNN
 F 2 "" H 7100 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7100 6350 50  0001 C CNN
@@ -881,8 +881,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7262F8
 P 9000 5700
 AR Path="/5F7262F8" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262F8" Ref="U23"  Part="1" 
-F 0 "U23" H 8700 6450 60  0000 C CNN
+AR Path="/5F71652A/5F7262F8" Ref="U25"  Part="1" 
+F 0 "U25" H 8700 6450 60  0000 C CNN
 F 1 "MCP23008-E_P" H 9000 6550 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 9200 5900 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9200 6000 60  0001 L CNN
@@ -947,8 +947,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F726314
 P 4500 5700
 AR Path="/5F726314" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726314" Ref="U12"  Part="1" 
-F 0 "U12" H 4300 6600 50  0000 C CNN
+AR Path="/5F71652A/5F726314" Ref="U14"  Part="1" 
+F 0 "U14" H 4300 6600 50  0000 C CNN
 F 1 "74LV8154" H 4250 6500 50  0000 C CNN
 F 2 "" H 4250 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 6350 50  0001 C CNN
@@ -960,8 +960,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726323
 P 6150 5700
 AR Path="/5F726323" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726323" Ref="U16"  Part="1" 
-F 0 "U16" H 5850 6450 60  0000 C CNN
+AR Path="/5F71652A/5F726323" Ref="U18"  Part="1" 
+F 0 "U18" H 5850 6450 60  0000 C CNN
 F 1 "MCP23008-E_P" H 6150 6550 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 5900 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 6000 60  0001 L CNN
@@ -1072,8 +1072,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F726367
 P 1500 5700
 AR Path="/5F726367" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726367" Ref="U3"  Part="1" 
-F 0 "U3" H 1300 6600 50  0000 C CNN
+AR Path="/5F71652A/5F726367" Ref="U6"  Part="1" 
+F 0 "U6" H 1300 6600 50  0000 C CNN
 F 1 "74LV8154" H 1250 6500 50  0000 C CNN
 F 2 "" H 1250 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 6350 50  0001 C CNN
@@ -1087,8 +1087,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F72636E
 P 1500 7800
 AR Path="/5F72636E" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72636E" Ref="U4"  Part="1" 
-F 0 "U4" H 1300 8700 50  0000 C CNN
+AR Path="/5F71652A/5F72636E" Ref="U7"  Part="1" 
+F 0 "U7" H 1300 8700 50  0000 C CNN
 F 1 "74LV8154" H 1250 8600 50  0000 C CNN
 F 2 "" H 1250 8450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 8450 50  0001 C CNN
@@ -1100,8 +1100,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72637D
 P 3150 7800
 AR Path="/5F72637D" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72637D" Ref="U9"  Part="1" 
-F 0 "U9" H 2750 8500 60  0000 C CNN
+AR Path="/5F71652A/5F72637D" Ref="U11"  Part="1" 
+F 0 "U11" H 2750 8500 60  0000 C CNN
 F 1 "MCP23008-E_P" H 2550 8600 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 8000 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 8100 60  0001 L CNN
@@ -1208,8 +1208,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7263B7
 P 6150 7800
 AR Path="/5F7263B7" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263B7" Ref="U17"  Part="1" 
-F 0 "U17" H 5850 8550 60  0000 C CNN
+AR Path="/5F71652A/5F7263B7" Ref="U19"  Part="1" 
+F 0 "U19" H 5850 8550 60  0000 C CNN
 F 1 "MCP23008-E_P" H 6150 8650 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 8000 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 8100 60  0001 L CNN
@@ -1230,8 +1230,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F7263BD
 P 4500 7800
 AR Path="/5F7263BD" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263BD" Ref="U13"  Part="1" 
-F 0 "U13" H 4300 8700 50  0000 C CNN
+AR Path="/5F71652A/5F7263BD" Ref="U15"  Part="1" 
+F 0 "U15" H 4300 8700 50  0000 C CNN
 F 1 "74LV8154" H 4250 8600 50  0000 C CNN
 F 2 "" H 4250 8450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 8450 50  0001 C CNN
@@ -1287,8 +1287,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7263E2
 P 9100 7800
 AR Path="/5F7263E2" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263E2" Ref="U25"  Part="1" 
-F 0 "U25" H 8800 8550 60  0000 C CNN
+AR Path="/5F71652A/5F7263E2" Ref="U27"  Part="1" 
+F 0 "U27" H 8800 8550 60  0000 C CNN
 F 1 "MCP23008-E_P" H 9100 8650 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 9300 8000 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9300 8100 60  0001 L CNN
@@ -1309,8 +1309,8 @@ L 74xx:74LV8154 U?
 U 1 1 5F7263E8
 P 7450 7800
 AR Path="/5F7263E8" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263E8" Ref="U21"  Part="1" 
-F 0 "U21" H 7250 8700 50  0000 C CNN
+AR Path="/5F71652A/5F7263E8" Ref="U23"  Part="1" 
+F 0 "U23" H 7250 8700 50  0000 C CNN
 F 1 "74LV8154" H 7200 8600 50  0000 C CNN
 F 2 "" H 7200 8450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7200 8450 50  0001 C CNN
@@ -1394,8 +1394,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72641B
 P 12000 7800
 AR Path="/5F72641B" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72641B" Ref="U33"  Part="1" 
-F 0 "U33" H 11700 8550 60  0000 C CNN
+AR Path="/5F71652A/5F72641B" Ref="U35"  Part="1" 
+F 0 "U35" H 11700 8550 60  0000 C CNN
 F 1 "MCP23008-E_P" H 12000 8650 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 8000 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 8100 60  0001 L CNN
@@ -1660,8 +1660,8 @@ L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726361
 P 3150 5700
 AR Path="/5F726361" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726361" Ref="U8"  Part="1" 
-F 0 "U8" H 2850 6450 60  0000 C CNN
+AR Path="/5F71652A/5F726361" Ref="U10"  Part="1" 
+F 0 "U10" H 2850 6450 60  0000 C CNN
 F 1 "MCP23008-E_P" H 3150 6550 60  0000 C CNN
 F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 5900 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 6000 60  0001 L CNN
