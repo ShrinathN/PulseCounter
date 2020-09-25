@@ -133,4 +133,48 @@ F11 "NGBU" I R 15500 4800 50
 F12 "RCLK" I R 15500 4900 50 
 F13 "NCCLR" I R 15500 5000 50 
 $EndSheet
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U66
+U 1 1 5FD147D4
+P 10250 5800
+F 0 "U66" H 10200 4000 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 10250 3900 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 9650 4400 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 10250 5800 50  0001 C CNN
+	1    10250 5800
+	1    0    0    -1  
+$EndComp
+Text Label 10150 7300 3    50   ~ 0
+GND
+Text Label 10050 7300 3    50   ~ 0
+GND
+Text Label 10250 7300 3    50   ~ 0
+GND
+Text Label 10350 7300 3    50   ~ 0
+GND
+Text Label 10150 4300 1    50   ~ 0
+3V3
+Text Label 10250 4300 1    50   ~ 0
+3V3
+Text Label 10350 4300 1    50   ~ 0
+3V3
+Text Label 10450 4300 1    50   ~ 0
+3V3
+Text Label 9450 4150 1    50   ~ 0
+3V3
+$Comp
+L Device:R R?
+U 1 1 5FDF826F
+P 9450 4350
+F 0 "R?" H 9520 4396 50  0000 L CNN
+F 1 "R" H 9520 4305 50  0000 L CNN
+F 2 "" V 9380 4350 50  0001 C CNN
+F 3 "~" H 9450 4350 50  0001 C CNN
+	1    9450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4500 9550 4500
+Wire Wire Line
+	9450 4200 9450 4150
 $EndSCHEMATC

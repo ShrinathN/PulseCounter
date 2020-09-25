@@ -1022,8 +1022,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 5200 4900 5200
 Wire Wire Line
-	2650 5200 1900 5200
-Wire Wire Line
 	1900 5300 2650 5300
 Wire Wire Line
 	2650 5400 1900 5400
@@ -1031,8 +1029,6 @@ Wire Wire Line
 	1900 5500 2650 5500
 Wire Wire Line
 	2650 5600 1900 5600
-Wire Wire Line
-	1900 5700 2650 5700
 Wire Wire Line
 	2650 5800 1900 5800
 Wire Wire Line
@@ -1071,28 +1067,6 @@ Text Label 3150 6700 3    50   ~ 0
 GND
 Text Label 3050 5000 0    50   ~ 0
 3V3
-$Comp
-L dk_Interface-I-O-Expanders:MCP23008-E_P U?
-U 1 1 5F726361
-P 3150 5700
-AR Path="/5F726361" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726361" Ref="U8"  Part="1" 
-F 0 "U8" H 2850 6450 60  0000 C CNN
-F 1 "MCP23008-E_P" H 3150 6550 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 5900 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 6000 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 3350 6100 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 3350 6200 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 3350 6300 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 3350 6400 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 6500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 3350 6600 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 3350 6700 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 3350 6800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3350 6900 60  0001 L CNN "Status"
-	1    3150 5700
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726367
@@ -1546,5 +1520,165 @@ F30 "CHANNEL_OUT_28" O L 14550 6000 50
 F31 "CHANNEL_OUT_29" O L 14550 6100 50 
 F32 "CHANNEL_OUT_30" O L 14550 6200 50 
 F33 "CHANNEL_OUT_31" O L 14550 6300 50 
+F34 "GND" U R 15650 6350 50 
+F35 "3V3" U R 15650 6200 50 
 $EndSheet
+Text Label 14050 6200 2    50   ~ 0
+CHANNEL_IN_30
+Text Label 14050 6300 2    50   ~ 0
+CHANNEL_IN_31
+Text Label 14050 6100 2    50   ~ 0
+CHANNEL_IN_29
+Text Label 14050 6000 2    50   ~ 0
+CHANNEL_IN_28
+Text Label 14050 5900 2    50   ~ 0
+CHANNEL_IN_27
+Text Label 14050 5800 2    50   ~ 0
+CHANNEL_IN_26
+Text Label 14050 5600 2    50   ~ 0
+CHANNEL_IN_24
+Text Label 14050 5700 2    50   ~ 0
+CHANNEL_IN_25
+Text Label 14050 5200 2    50   ~ 0
+CHANNEL_IN_20
+Text Label 14050 5500 2    50   ~ 0
+CHANNEL_IN_23
+Text Label 14050 5400 2    50   ~ 0
+CHANNEL_IN_22
+Text Label 14050 5300 2    50   ~ 0
+CHANNEL_IN_21
+Text Label 14050 5000 2    50   ~ 0
+CHANNEL_IN_18
+Text Label 14050 5100 2    50   ~ 0
+CHANNEL_IN_19
+Text Label 14050 4900 2    50   ~ 0
+CHANNEL_IN_17
+Text Label 14050 4800 2    50   ~ 0
+CHANNEL_IN_16
+Text Label 14050 4700 2    50   ~ 0
+CHANNEL_IN_15
+Text Label 14050 4600 2    50   ~ 0
+CHANNEL_IN_14
+Text Label 14050 4400 2    50   ~ 0
+CHANNEL_IN_12
+Text Label 14050 4500 2    50   ~ 0
+CHANNEL_IN_13
+Text Label 14050 4300 2    50   ~ 0
+CHANNEL_IN_11
+Text Label 14050 4200 2    50   ~ 0
+CHANNEL_IN_10
+Text Label 14050 4100 2    50   ~ 0
+CHANNEL_IN_9
+Text Label 14050 4000 2    50   ~ 0
+CHANNEL_IN_8
+Text Label 14050 3800 2    50   ~ 0
+CHANNEL_IN_6
+Text Label 14050 3900 2    50   ~ 0
+CHANNEL_IN_7
+Text Label 14050 3700 2    50   ~ 0
+CHANNEL_IN_5
+Text Label 14050 3600 2    50   ~ 0
+CHANNEL_IN_4
+Text Label 14050 3500 2    50   ~ 0
+CHANNEL_IN_3
+Text Label 14050 3400 2    50   ~ 0
+CHANNEL_IN_2
+Text Label 14050 3200 2    50   ~ 0
+CHANNEL_IN_0
+Text Label 14050 3300 2    50   ~ 0
+CHANNEL_IN_1
+Wire Wire Line
+	14050 3200 14550 3200
+Wire Wire Line
+	14550 3300 14050 3300
+Wire Wire Line
+	14050 3400 14550 3400
+Wire Wire Line
+	14050 3500 14550 3500
+Wire Wire Line
+	14550 3600 14050 3600
+Wire Wire Line
+	14050 3700 14550 3700
+Wire Wire Line
+	14050 3800 14550 3800
+Wire Wire Line
+	14550 3900 14050 3900
+Wire Wire Line
+	14050 4000 14550 4000
+Wire Wire Line
+	14050 4100 14550 4100
+Wire Wire Line
+	14550 4200 14050 4200
+Wire Wire Line
+	14050 4300 14550 4300
+Wire Wire Line
+	14050 4400 14550 4400
+Wire Wire Line
+	14550 4500 14050 4500
+Wire Wire Line
+	14050 4600 14550 4600
+Wire Wire Line
+	14050 4700 14550 4700
+Wire Wire Line
+	14550 4800 14050 4800
+Wire Wire Line
+	14050 4900 14550 4900
+Wire Wire Line
+	14050 5000 14550 5000
+Wire Wire Line
+	14550 5100 14050 5100
+Wire Wire Line
+	14050 5200 14550 5200
+Wire Wire Line
+	14050 5300 14550 5300
+Wire Wire Line
+	14550 5400 14050 5400
+Wire Wire Line
+	14050 5500 14550 5500
+Wire Wire Line
+	14050 5600 14550 5600
+Wire Wire Line
+	14550 5700 14050 5700
+Wire Wire Line
+	14050 5800 14550 5800
+Wire Wire Line
+	14050 5900 14550 5900
+Wire Wire Line
+	14550 6000 14050 6000
+Wire Wire Line
+	14050 6100 14550 6100
+Wire Wire Line
+	14050 6200 14550 6200
+Wire Wire Line
+	14550 6300 14050 6300
+Wire Wire Line
+	1900 5700 2650 5700
+Wire Wire Line
+	2650 5200 1900 5200
+$Comp
+L dk_Interface-I-O-Expanders:MCP23008-E_P U?
+U 1 1 5F726361
+P 3150 5700
+AR Path="/5F726361" Ref="U?"  Part="1" 
+AR Path="/5F71652A/5F726361" Ref="U8"  Part="1" 
+F 0 "U8" H 2850 6450 60  0000 C CNN
+F 1 "MCP23008-E_P" H 3150 6550 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 5900 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 6000 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 3350 6100 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 3350 6200 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3350 6300 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 3350 6400 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 6500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 3350 6600 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 3350 6700 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 3350 6800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3350 6900 60  0001 L CNN "Status"
+	1    3150 5700
+	1    0    0    -1  
+$EndComp
+Text Label 15650 6200 0    50   ~ 0
+3V3
+Text Label 15650 6350 0    50   ~ 0
+GND
 $EndSCHEMATC

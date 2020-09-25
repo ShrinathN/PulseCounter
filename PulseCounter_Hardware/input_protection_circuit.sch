@@ -182,17 +182,6 @@ Text Label 13550 2500 2    50   ~ 0
 CHANNEL_IN_1
 Wire Wire Line
 	13550 2400 13800 2400
-$Comp
-L Connector:Conn_01x32_Male J1
-U 1 1 5FA21E59
-P 14000 3900
-F 0 "J1" H 13972 3874 50  0000 R CNN
-F 1 "Conn_01x32_Male" H 13972 3783 50  0000 R CNN
-F 2 "" H 14000 3900 50  0001 C CNN
-F 3 "~" H 14000 3900 50  0001 C CNN
-	1    14000 3900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	13800 2500 13550 2500
 Wire Wire Line
@@ -4180,4 +4169,31 @@ Wire Notes Line
 	4900 10750 4900 800 
 Wire Notes Line
 	6850 800  6850 10750
+$Comp
+L Connector:Conn_01x33_Female J1
+U 1 1 5FD194EE
+P 14000 4000
+F 0 "J1" H 14028 4026 50  0000 L CNN
+F 1 "Conn_01x33_Female" H 14028 3935 50  0000 L CNN
+F 2 "" H 14000 4000 50  0001 C CNN
+F 3 "~" H 14000 4000 50  0001 C CNN
+	1    14000 4000
+	1    0    0    -1  
+$EndComp
+Text Label 13550 5600 2    50   ~ 0
+OPTO_GND
+Wire Wire Line
+	13550 5600 13800 5600
+Text Label 13500 6050 2    50   ~ 0
+GND
+Text Label 13500 5950 2    50   ~ 0
+3V3
+Text HLabel 13700 6050 2    50   UnSpc ~ 0
+GND
+Text HLabel 13700 5950 2    50   UnSpc ~ 0
+3V3
+Wire Wire Line
+	13700 5950 13500 5950
+Wire Wire Line
+	13500 6050 13700 6050
 $EndSCHEMATC
