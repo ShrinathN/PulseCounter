@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -16,1497 +16,1535 @@ $EndDescr
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726121
-P 11000 3650
+P 10350 3600
 AR Path="/5F726121" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726121" Ref="U?"  Part="1" 
-F 0 "U?" H 10800 4550 50  0000 C CNN
-F 1 "74LV8154" H 10750 4450 50  0000 C CNN
-F 2 "" H 10750 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10750 4300 50  0001 C CNN
-	1    11000 3650
+AR Path="/5F71652A/5F726121" Ref="U27"  Part="1" 
+F 0 "U27" H 10150 4500 50  0000 C CNN
+F 1 "74LV8154" H 10100 4400 50  0000 C CNN
+F 2 "" H 10100 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 4250 50  0001 C CNN
+	1    10350 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726130
-P 12650 3650
+P 12000 3600
 AR Path="/5F726130" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726130" Ref="U?"  Part="1" 
-F 0 "U?" H 12350 4400 60  0000 C CNN
-F 1 "MCP23008-E_P" H 12650 4500 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 12850 3850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 3950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 12850 4050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 12850 4150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 12850 4250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 12850 4350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 4450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12850 4550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12850 4650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 12850 4750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12850 4850 60  0001 L CNN "Status"
-	1    12650 3650
+AR Path="/5F71652A/5F726130" Ref="U31"  Part="1" 
+F 0 "U31" H 11700 4350 60  0000 C CNN
+F 1 "MCP23008-E_P" H 12000 4450 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 3800 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 3900 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 12200 4000 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 12200 4100 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12200 4200 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 12200 4300 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 4400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12200 4500 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12200 4600 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 12200 4700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12200 4800 60  0001 L CNN "Status"
+	1    12000 3600
 	1    0    0    -1  
 $EndComp
-Text Label 12550 2950 0    50   ~ 0
+Text Label 11900 2900 0    50   ~ 0
 3V3
-Text Label 12650 4650 3    50   ~ 0
+Text Label 12000 4600 3    50   ~ 0
 GND
-Text Label 11000 4350 3    50   ~ 0
+Text Label 10350 4300 3    50   ~ 0
 GND
-Text Label 11000 2950 0    50   ~ 0
+Text Label 10350 2900 0    50   ~ 0
 3V3
-Text Label 10600 3150 2    50   ~ 0
+Text Label 9950 3100 2    50   ~ 0
 CHANNEL_IN_14
-Text Label 10600 3250 2    50   ~ 0
+Text Label 9950 3200 2    50   ~ 0
 CHANNEL_IN_15
-Text Label 10600 3350 2    50   ~ 0
+Text Label 9950 3300 2    50   ~ 0
 NGAL
-Text Label 10600 3450 2    50   ~ 0
+Text Label 9950 3400 2    50   ~ 0
 NGAU
-Text Label 10600 3550 2    50   ~ 0
+Text Label 9950 3500 2    50   ~ 0
 NGBL
-Text Label 10600 3650 2    50   ~ 0
+Text Label 9950 3600 2    50   ~ 0
 NGBU
-Text Label 12150 3950 2    50   ~ 0
+Text Label 11500 3900 2    50   ~ 0
 I2C1_SDA
-Text Label 12150 4050 2    50   ~ 0
+Text Label 11500 4000 2    50   ~ 0
 I2C1_SCL
-Text Label 10600 3850 2    50   ~ 0
+Text Label 9950 3800 2    50   ~ 0
 RCLK
-Text Label 10600 3950 2    50   ~ 0
+Text Label 9950 3900 2    50   ~ 0
 NCCLR
-Text Label 12150 4450 2    50   ~ 0
+Text Label 11500 4400 2    50   ~ 0
 3V3
 Wire Wire Line
-	11400 3850 12150 3850
+	10750 3800 11500 3800
 Wire Wire Line
-	12150 3750 11400 3750
+	11500 3700 10750 3700
 Wire Wire Line
-	11400 3650 12150 3650
+	10750 3600 11500 3600
 Wire Wire Line
-	12150 3550 11400 3550
+	11500 3500 10750 3500
 Wire Wire Line
-	11400 3450 12150 3450
+	10750 3400 11500 3400
 Wire Wire Line
-	12150 3350 11400 3350
+	11500 3300 10750 3300
 Wire Wire Line
-	11400 3250 12150 3250
+	10750 3200 11500 3200
 Wire Wire Line
-	12150 3150 11400 3150
+	11500 3100 10750 3100
 Wire Wire Line
-	12150 1050 11400 1050
+	11500 1000 10750 1000
 Wire Wire Line
-	11400 1150 12150 1150
+	10750 1100 11500 1100
 Wire Wire Line
-	12150 1250 11400 1250
+	11500 1200 10750 1200
 Wire Wire Line
-	11400 1350 12150 1350
+	10750 1300 11500 1300
 Wire Wire Line
-	12150 1450 11400 1450
+	11500 1400 10750 1400
 Wire Wire Line
-	11400 1550 12150 1550
+	10750 1500 11500 1500
 Wire Wire Line
-	12150 1650 11400 1650
+	11500 1600 10750 1600
 Wire Wire Line
-	11400 1750 12150 1750
-Text Label 12150 2350 2    50   ~ 0
+	10750 1700 11500 1700
+Text Label 11500 2300 2    50   ~ 0
 3V3
-Text Label 10600 1850 2    50   ~ 0
+Text Label 9950 1800 2    50   ~ 0
 NCCLR
-Text Label 10600 1750 2    50   ~ 0
+Text Label 9950 1700 2    50   ~ 0
 RCLK
-Text Label 12150 1950 2    50   ~ 0
+Text Label 11500 1900 2    50   ~ 0
 I2C1_SCL
-Text Label 12150 1850 2    50   ~ 0
+Text Label 11500 1800 2    50   ~ 0
 I2C1_SDA
-Text Label 10600 1550 2    50   ~ 0
+Text Label 9950 1500 2    50   ~ 0
 NGBU
-Text Label 10600 1450 2    50   ~ 0
+Text Label 9950 1400 2    50   ~ 0
 NGBL
-Text Label 10600 1350 2    50   ~ 0
+Text Label 9950 1300 2    50   ~ 0
 NGAU
-Text Label 10600 1250 2    50   ~ 0
+Text Label 9950 1200 2    50   ~ 0
 NGAL
-Text Label 10600 1150 2    50   ~ 0
+Text Label 9950 1100 2    50   ~ 0
 CHANNEL_IN_7
-Text Label 10600 1050 2    50   ~ 0
+Text Label 9950 1000 2    50   ~ 0
 CHANNEL_IN_6
-Text Label 11000 850  0    50   ~ 0
+Text Label 10350 800  0    50   ~ 0
 3V3
-Text Label 11000 2250 3    50   ~ 0
+Text Label 10350 2200 3    50   ~ 0
 GND
-Text Label 12650 2550 3    50   ~ 0
+Text Label 12000 2500 3    50   ~ 0
 GND
-Text Label 12550 850  0    50   ~ 0
+Text Label 11900 800  0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72616D
-P 12650 1550
+P 12000 1500
 AR Path="/5F72616D" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72616D" Ref="U?"  Part="1" 
-F 0 "U?" H 12350 2300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 12650 2400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 12850 1750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 1850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 12850 1950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 12850 2050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 12850 2150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 12850 2250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 2350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12850 2450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12850 2550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 12850 2650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12850 2750 60  0001 L CNN "Status"
-	1    12650 1550
+AR Path="/5F71652A/5F72616D" Ref="U30"  Part="1" 
+F 0 "U30" H 11700 2250 60  0000 C CNN
+F 1 "MCP23008-E_P" H 12000 2350 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 1700 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 1800 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 12200 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 12200 2000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12200 2100 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 12200 2200 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12200 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12200 2500 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 12200 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12200 2700 60  0001 L CNN "Status"
+	1    12000 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726173
-P 11000 1550
+P 10350 1500
 AR Path="/5F726173" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726173" Ref="U?"  Part="1" 
-F 0 "U?" H 10800 2450 50  0000 C CNN
-F 1 "74LV8154" H 10750 2350 50  0000 C CNN
-F 2 "" H 10750 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10750 2200 50  0001 C CNN
-	1    11000 1550
+AR Path="/5F71652A/5F726173" Ref="U26"  Part="1" 
+F 0 "U26" H 10150 2400 50  0000 C CNN
+F 1 "74LV8154" H 10100 2300 50  0000 C CNN
+F 2 "" H 10100 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 2150 50  0001 C CNN
+	1    10350 1500
 	1    0    0    -1  
 $EndComp
-Text Label 12150 2050 2    50   ~ 0
+Text Label 11500 2000 2    50   ~ 0
 GND
-Text Label 12150 2250 2    50   ~ 0
+Text Label 11500 2200 2    50   ~ 0
 3V3
-Text Label 12150 2150 2    50   ~ 0
+Text Label 11500 2100 2    50   ~ 0
 3V3
-Text Label 12150 4150 2    50   ~ 0
+Text Label 11500 4100 2    50   ~ 0
 3V3
-Text Label 12150 4250 2    50   ~ 0
+Text Label 11500 4200 2    50   ~ 0
 3V3
-Text Label 12150 4350 2    50   ~ 0
+Text Label 11500 4300 2    50   ~ 0
 3V3
-Text Label 9250 4250 2    50   ~ 0
+Text Label 8600 4200 2    50   ~ 0
 3V3
-Text Label 9250 4150 2    50   ~ 0
+Text Label 8600 4100 2    50   ~ 0
 3V3
-Text Label 6300 4150 2    50   ~ 0
+Text Label 5650 4100 2    50   ~ 0
 3V3
-Text Label 6300 4350 2    50   ~ 0
+Text Label 5650 4300 2    50   ~ 0
 3V3
-Text Label 3300 4150 2    50   ~ 0
+Text Label 2650 4100 2    50   ~ 0
 3V3
-Text Label 9150 2150 2    50   ~ 0
+Text Label 8500 2100 2    50   ~ 0
 3V3
-Text Label 6300 2250 2    50   ~ 0
+Text Label 5650 2200 2    50   ~ 0
 3V3
-Text Label 3300 2250 2    50   ~ 0
+Text Label 2650 2200 2    50   ~ 0
 GND
-Text Label 6300 2150 2    50   ~ 0
+Text Label 5650 2100 2    50   ~ 0
 GND
-Text Label 9150 2250 2    50   ~ 0
+Text Label 8500 2200 2    50   ~ 0
 GND
-Text Label 3300 4350 2    50   ~ 0
+Text Label 2650 4300 2    50   ~ 0
 GND
-Text Label 6300 4250 2    50   ~ 0
+Text Label 5650 4200 2    50   ~ 0
 GND
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F72618B
-P 8000 1550
+P 7350 1500
 AR Path="/5F72618B" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72618B" Ref="U?"  Part="1" 
-F 0 "U?" H 7800 2450 50  0000 C CNN
-F 1 "74LV8154" H 7750 2350 50  0000 C CNN
-F 2 "" H 7750 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7750 2200 50  0001 C CNN
-	1    8000 1550
+AR Path="/5F71652A/5F72618B" Ref="U18"  Part="1" 
+F 0 "U18" H 7150 2400 50  0000 C CNN
+F 1 "74LV8154" H 7100 2300 50  0000 C CNN
+F 2 "" H 7100 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7100 2150 50  0001 C CNN
+	1    7350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72619A
-P 9650 1550
+P 9000 1500
 AR Path="/5F72619A" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72619A" Ref="U?"  Part="1" 
-F 0 "U?" H 9350 2300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 9650 2400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 9850 1750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9850 1850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 9850 1950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 9850 2050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 9850 2150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 9850 2250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9850 2350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9850 2450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9850 2550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 9850 2650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9850 2750 60  0001 L CNN "Status"
-	1    9650 1550
+AR Path="/5F71652A/5F72619A" Ref="U22"  Part="1" 
+F 0 "U22" H 8700 2250 60  0000 C CNN
+F 1 "MCP23008-E_P" H 9000 2350 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 9200 1700 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9200 1800 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 9200 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 9200 2000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 9200 2100 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 9200 2200 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9200 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9200 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9200 2500 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 9200 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9200 2700 60  0001 L CNN "Status"
+	1    9000 1500
 	1    0    0    -1  
 $EndComp
-Text Label 9550 850  0    50   ~ 0
+Text Label 8900 800  0    50   ~ 0
 3V3
-Text Label 9650 2550 3    50   ~ 0
+Text Label 9000 2500 3    50   ~ 0
 GND
-Text Label 8000 2250 3    50   ~ 0
+Text Label 7350 2200 3    50   ~ 0
 GND
-Text Label 8000 850  0    50   ~ 0
+Text Label 7350 800  0    50   ~ 0
 3V3
-Text Label 7600 1050 2    50   ~ 0
+Text Label 6950 1000 2    50   ~ 0
 CHANNEL_IN_4
-Text Label 7600 1150 2    50   ~ 0
+Text Label 6950 1100 2    50   ~ 0
 CHANNEL_IN_5
-Text Label 7600 1250 2    50   ~ 0
+Text Label 6950 1200 2    50   ~ 0
 NGAL
-Text Label 7600 1350 2    50   ~ 0
+Text Label 6950 1300 2    50   ~ 0
 NGAU
-Text Label 7600 1450 2    50   ~ 0
+Text Label 6950 1400 2    50   ~ 0
 NGBL
-Text Label 7600 1550 2    50   ~ 0
+Text Label 6950 1500 2    50   ~ 0
 NGBU
-Text Label 9150 1850 2    50   ~ 0
+Text Label 8500 1800 2    50   ~ 0
 I2C1_SDA
-Text Label 9150 1950 2    50   ~ 0
+Text Label 8500 1900 2    50   ~ 0
 I2C1_SCL
-Text Label 9150 2050 2    50   ~ 0
+Text Label 8500 2000 2    50   ~ 0
 GND
-Text Label 7600 1750 2    50   ~ 0
+Text Label 6950 1700 2    50   ~ 0
 RCLK
-Text Label 7600 1850 2    50   ~ 0
+Text Label 6950 1800 2    50   ~ 0
 NCCLR
-Text Label 9150 2350 2    50   ~ 0
+Text Label 8500 2300 2    50   ~ 0
 3V3
 Wire Wire Line
-	8400 1750 9150 1750
+	7750 1700 8500 1700
 Wire Wire Line
-	9150 1650 8400 1650
+	8500 1600 7750 1600
 Wire Wire Line
-	8400 1550 9150 1550
+	7750 1500 8500 1500
 Wire Wire Line
-	9150 1450 8400 1450
+	8500 1400 7750 1400
 Wire Wire Line
-	8400 1350 9150 1350
+	7750 1300 8500 1300
 Wire Wire Line
-	9150 1250 8400 1250
+	8500 1200 7750 1200
 Wire Wire Line
-	8400 1150 9150 1150
+	7750 1100 8500 1100
 Wire Wire Line
-	9150 1050 8400 1050
+	8500 1000 7750 1000
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F7261B8
-P 5150 1550
+P 4500 1500
 AR Path="/5F7261B8" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7261B8" Ref="U?"  Part="1" 
-F 0 "U?" H 4950 2450 50  0000 C CNN
-F 1 "74LV8154" H 4900 2350 50  0000 C CNN
-F 2 "" H 4900 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4900 2200 50  0001 C CNN
-	1    5150 1550
+AR Path="/5F71652A/5F7261B8" Ref="U10"  Part="1" 
+F 0 "U10" H 4300 2400 50  0000 C CNN
+F 1 "74LV8154" H 4250 2300 50  0000 C CNN
+F 2 "" H 4250 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 2150 50  0001 C CNN
+	1    4500 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7261C7
-P 6800 1550
+P 6150 1500
 AR Path="/5F7261C7" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7261C7" Ref="U?"  Part="1" 
-F 0 "U?" H 6500 2300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 6800 2400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 7000 1750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 1850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 7000 1950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 7000 2050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 7000 2150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 7000 2250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 2350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 7000 2450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 7000 2550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 7000 2650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7000 2750 60  0001 L CNN "Status"
-	1    6800 1550
+AR Path="/5F71652A/5F7261C7" Ref="U14"  Part="1" 
+F 0 "U14" H 5850 2250 60  0000 C CNN
+F 1 "MCP23008-E_P" H 6150 2350 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 1700 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 1800 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 6350 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 6350 2000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6350 2100 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 6350 2200 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 6350 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 6350 2500 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6350 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 2700 60  0001 L CNN "Status"
+	1    6150 1500
 	1    0    0    -1  
 $EndComp
-Text Label 6700 850  0    50   ~ 0
+Text Label 6050 800  0    50   ~ 0
 3V3
-Text Label 6800 2550 3    50   ~ 0
+Text Label 6150 2500 3    50   ~ 0
 GND
-Text Label 5150 2250 3    50   ~ 0
+Text Label 4500 2200 3    50   ~ 0
 GND
-Text Label 5150 850  0    50   ~ 0
+Text Label 4500 800  0    50   ~ 0
 3V3
-Text Label 4750 1050 2    50   ~ 0
+Text Label 4100 1000 2    50   ~ 0
 CHANNEL_IN_2
-Text Label 4750 1150 2    50   ~ 0
+Text Label 4100 1100 2    50   ~ 0
 CHANNEL_IN_3
-Text Label 4750 1250 2    50   ~ 0
+Text Label 4100 1200 2    50   ~ 0
 NGAL
-Text Label 4750 1350 2    50   ~ 0
+Text Label 4100 1300 2    50   ~ 0
 NGAU
-Text Label 4750 1450 2    50   ~ 0
+Text Label 4100 1400 2    50   ~ 0
 NGBL
-Text Label 4750 1550 2    50   ~ 0
+Text Label 4100 1500 2    50   ~ 0
 NGBU
-Text Label 6300 1850 2    50   ~ 0
+Text Label 5650 1800 2    50   ~ 0
 I2C1_SDA
-Text Label 6300 1950 2    50   ~ 0
+Text Label 5650 1900 2    50   ~ 0
 I2C1_SCL
-Text Label 6300 2050 2    50   ~ 0
+Text Label 5650 2000 2    50   ~ 0
 GND
-Text Label 4750 1750 2    50   ~ 0
+Text Label 4100 1700 2    50   ~ 0
 RCLK
-Text Label 4750 1850 2    50   ~ 0
+Text Label 4100 1800 2    50   ~ 0
 NCCLR
-Text Label 6300 2350 2    50   ~ 0
+Text Label 5650 2300 2    50   ~ 0
 3V3
 Wire Wire Line
-	5550 1750 6300 1750
+	4900 1700 5650 1700
 Wire Wire Line
-	6300 1650 5550 1650
+	5650 1600 4900 1600
 Wire Wire Line
-	5550 1550 6300 1550
+	4900 1500 5650 1500
 Wire Wire Line
-	6300 1450 5550 1450
+	5650 1400 4900 1400
 Wire Wire Line
-	5550 1350 6300 1350
+	4900 1300 5650 1300
 Wire Wire Line
-	6300 1250 5550 1250
+	5650 1200 4900 1200
 Wire Wire Line
-	5550 1150 6300 1150
+	4900 1100 5650 1100
 Wire Wire Line
-	6300 1050 5550 1050
+	5650 1000 4900 1000
 Wire Wire Line
-	3300 1050 2550 1050
+	2650 1000 1900 1000
 Wire Wire Line
-	2550 1150 3300 1150
+	1900 1100 2650 1100
 Wire Wire Line
-	3300 1250 2550 1250
+	2650 1200 1900 1200
 Wire Wire Line
-	2550 1350 3300 1350
+	1900 1300 2650 1300
 Wire Wire Line
-	3300 1450 2550 1450
+	2650 1400 1900 1400
 Wire Wire Line
-	2550 1550 3300 1550
+	1900 1500 2650 1500
 Wire Wire Line
-	3300 1650 2550 1650
+	2650 1600 1900 1600
 Wire Wire Line
-	2550 1750 3300 1750
-Text Label 3300 2350 2    50   ~ 0
+	1900 1700 2650 1700
+Text Label 2650 2300 2    50   ~ 0
 3V3
-Text Label 3300 2150 2    50   ~ 0
+Text Label 2650 2100 2    50   ~ 0
 GND
-Text Label 1750 1850 2    50   ~ 0
+Text Label 1100 1800 2    50   ~ 0
 NCCLR
-Text Label 1750 1750 2    50   ~ 0
+Text Label 1100 1700 2    50   ~ 0
 RCLK
-Text Label 3300 2050 2    50   ~ 0
+Text Label 2650 2000 2    50   ~ 0
 GND
-Text Label 3300 1950 2    50   ~ 0
+Text Label 2650 1900 2    50   ~ 0
 I2C1_SCL
-Text Label 3300 1850 2    50   ~ 0
+Text Label 2650 1800 2    50   ~ 0
 I2C1_SDA
-Text Label 1750 1550 2    50   ~ 0
+Text Label 1100 1500 2    50   ~ 0
 NGBU
-Text Label 1750 1450 2    50   ~ 0
+Text Label 1100 1400 2    50   ~ 0
 NGBL
-Text Label 1750 1350 2    50   ~ 0
+Text Label 1100 1300 2    50   ~ 0
 NGAU
-Text Label 1750 1250 2    50   ~ 0
+Text Label 1100 1200 2    50   ~ 0
 NGAL
-Text Label 1750 1150 2    50   ~ 0
+Text Label 1100 1100 2    50   ~ 0
 CHANNEL_IN_1
-Text Label 1750 1050 2    50   ~ 0
+Text Label 1100 1000 2    50   ~ 0
 CHANNEL_IN_0
-Text Label 2150 850  0    50   ~ 0
+Text Label 1500 800  0    50   ~ 0
 3V3
-Text Label 2150 2250 3    50   ~ 0
+Text Label 1500 2200 3    50   ~ 0
 GND
-Text Label 3800 2550 3    50   ~ 0
+Text Label 3150 2500 3    50   ~ 0
 GND
-Text Label 3700 850  0    50   ~ 0
+Text Label 3050 800  0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726207
-P 3800 1550
+P 3150 1500
 AR Path="/5F726207" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726207" Ref="U?"  Part="1" 
-F 0 "U?" H 3500 2300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 3800 2400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 4000 1750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 1850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 4000 1950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 4000 2050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4000 2150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 4000 2250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 2350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 4000 2450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 4000 2550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 4000 2650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4000 2750 60  0001 L CNN "Status"
-	1    3800 1550
+AR Path="/5F71652A/5F726207" Ref="U6"  Part="1" 
+F 0 "U6" H 2850 2250 60  0000 C CNN
+F 1 "MCP23008-E_P" H 3150 2350 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 1700 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 1800 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 3350 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 3350 2000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3350 2100 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 3350 2200 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 3350 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 3350 2500 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 3350 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3350 2700 60  0001 L CNN "Status"
+	1    3150 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F72620D
-P 2150 1550
+P 1500 1500
 AR Path="/5F72620D" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72620D" Ref="U?"  Part="1" 
-F 0 "U?" H 1950 2450 50  0000 C CNN
-F 1 "74LV8154" H 1900 2350 50  0000 C CNN
-F 2 "" H 1900 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1900 2200 50  0001 C CNN
-	1    2150 1550
+AR Path="/5F71652A/5F72620D" Ref="U1"  Part="1" 
+F 0 "U1" H 1300 2400 50  0000 C CNN
+F 1 "74LV8154" H 1250 2300 50  0000 C CNN
+F 2 "" H 1250 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 2150 50  0001 C CNN
+	1    1500 1500
 	1    0    0    -1  
 $EndComp
-Text Label 1750 1950 2    50   ~ 0
+Text Label 1100 1900 2    50   ~ 0
 GND
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726214
-P 2150 3650
+P 1500 3600
 AR Path="/5F726214" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726214" Ref="U?"  Part="1" 
-F 0 "U?" H 1950 4550 50  0000 C CNN
-F 1 "74LV8154" H 1900 4450 50  0000 C CNN
-F 2 "" H 1900 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1900 4300 50  0001 C CNN
-	1    2150 3650
+AR Path="/5F71652A/5F726214" Ref="U2"  Part="1" 
+F 0 "U2" H 1300 4500 50  0000 C CNN
+F 1 "74LV8154" H 1250 4400 50  0000 C CNN
+F 2 "" H 1250 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 4250 50  0001 C CNN
+	1    1500 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726223
-P 3800 3650
+P 3150 3600
 AR Path="/5F726223" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726223" Ref="U?"  Part="1" 
-F 0 "U?" H 3400 4350 60  0000 C CNN
-F 1 "MCP23008-E_P" H 3200 4450 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 4000 3850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 3950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 4000 4050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 4000 4150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4000 4250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 4000 4350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 4450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 4000 4550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 4000 4650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 4000 4750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4000 4850 60  0001 L CNN "Status"
-	1    3800 3650
+AR Path="/5F71652A/5F726223" Ref="U7"  Part="1" 
+F 0 "U7" H 2750 4300 60  0000 C CNN
+F 1 "MCP23008-E_P" H 2550 4400 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 3800 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 3900 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 3350 4000 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 3350 4100 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3350 4200 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 3350 4300 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 4400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 3350 4500 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 3350 4600 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 3350 4700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3350 4800 60  0001 L CNN "Status"
+	1    3150 3600
 	1    0    0    -1  
 $EndComp
-Text Label 3700 2950 0    50   ~ 0
+Text Label 3050 2900 0    50   ~ 0
 3V3
-Text Label 3800 4650 3    50   ~ 0
+Text Label 3150 4600 3    50   ~ 0
 GND
-Text Label 2150 4350 3    50   ~ 0
+Text Label 1500 4300 3    50   ~ 0
 GND
-Text Label 2150 2950 0    50   ~ 0
+Text Label 1500 2900 0    50   ~ 0
 3V3
-Text Label 1750 3150 2    50   ~ 0
+Text Label 1100 3100 2    50   ~ 0
 CHANNEL_IN_8
-Text Label 1750 3250 2    50   ~ 0
+Text Label 1100 3200 2    50   ~ 0
 CHANNEL_IN_9
-Text Label 1750 3350 2    50   ~ 0
+Text Label 1100 3300 2    50   ~ 0
 NGAL
-Text Label 1750 3450 2    50   ~ 0
+Text Label 1100 3400 2    50   ~ 0
 NGAU
-Text Label 1750 3550 2    50   ~ 0
+Text Label 1100 3500 2    50   ~ 0
 NGBL
-Text Label 1750 3650 2    50   ~ 0
+Text Label 1100 3600 2    50   ~ 0
 NGBU
-Text Label 3300 3950 2    50   ~ 0
+Text Label 2650 3900 2    50   ~ 0
 I2C1_SDA
-Text Label 3300 4050 2    50   ~ 0
+Text Label 2650 4000 2    50   ~ 0
 I2C1_SCL
-Text Label 1750 3850 2    50   ~ 0
+Text Label 1100 3800 2    50   ~ 0
 RCLK
-Text Label 1750 3950 2    50   ~ 0
+Text Label 1100 3900 2    50   ~ 0
 NCCLR
-Text Label 3300 4250 2    50   ~ 0
+Text Label 2650 4200 2    50   ~ 0
 GND
-Text Label 3300 4450 2    50   ~ 0
+Text Label 2650 4400 2    50   ~ 0
 3V3
 Wire Wire Line
-	2550 3850 3300 3850
+	1900 3800 2650 3800
 Wire Wire Line
-	3300 3750 2550 3750
+	2650 3700 1900 3700
 Wire Wire Line
-	2550 3650 3300 3650
+	1900 3600 2650 3600
 Wire Wire Line
-	3300 3550 2550 3550
+	2650 3500 1900 3500
 Wire Wire Line
-	2550 3450 3300 3450
+	1900 3400 2650 3400
 Wire Wire Line
-	3300 3350 2550 3350
+	2650 3300 1900 3300
 Wire Wire Line
-	2550 3250 3300 3250
+	1900 3200 2650 3200
 Wire Wire Line
-	3300 3150 2550 3150
+	2650 3100 1900 3100
 Wire Wire Line
-	6300 3150 5550 3150
+	5650 3100 4900 3100
 Wire Wire Line
-	5550 3250 6300 3250
+	4900 3200 5650 3200
 Wire Wire Line
-	6300 3350 5550 3350
+	5650 3300 4900 3300
 Wire Wire Line
-	5550 3450 6300 3450
+	4900 3400 5650 3400
 Wire Wire Line
-	6300 3550 5550 3550
+	5650 3500 4900 3500
 Wire Wire Line
-	5550 3650 6300 3650
+	4900 3600 5650 3600
 Wire Wire Line
-	6300 3750 5550 3750
+	5650 3700 4900 3700
 Wire Wire Line
-	5550 3850 6300 3850
-Text Label 6300 4450 2    50   ~ 0
+	4900 3800 5650 3800
+Text Label 5650 4400 2    50   ~ 0
 3V3
-Text Label 4750 3950 2    50   ~ 0
+Text Label 4100 3900 2    50   ~ 0
 NCCLR
-Text Label 4750 3850 2    50   ~ 0
+Text Label 4100 3800 2    50   ~ 0
 RCLK
-Text Label 6300 4050 2    50   ~ 0
+Text Label 5650 4000 2    50   ~ 0
 I2C1_SCL
-Text Label 6300 3950 2    50   ~ 0
+Text Label 5650 3900 2    50   ~ 0
 I2C1_SDA
-Text Label 4750 3650 2    50   ~ 0
+Text Label 4100 3600 2    50   ~ 0
 NGBU
-Text Label 4750 3550 2    50   ~ 0
+Text Label 4100 3500 2    50   ~ 0
 NGBL
-Text Label 4750 3450 2    50   ~ 0
+Text Label 4100 3400 2    50   ~ 0
 NGAU
-Text Label 4750 3350 2    50   ~ 0
+Text Label 4100 3300 2    50   ~ 0
 NGAL
-Text Label 4750 3250 2    50   ~ 0
+Text Label 4100 3200 2    50   ~ 0
 CHANNEL_IN_11
-Text Label 4750 3150 2    50   ~ 0
+Text Label 4100 3100 2    50   ~ 0
 CHANNEL_IN_10
-Text Label 5150 2950 0    50   ~ 0
+Text Label 4500 2900 0    50   ~ 0
 3V3
-Text Label 5150 4350 3    50   ~ 0
+Text Label 4500 4300 3    50   ~ 0
 GND
-Text Label 6800 4650 3    50   ~ 0
+Text Label 6150 4600 3    50   ~ 0
 GND
-Text Label 6700 2950 0    50   ~ 0
+Text Label 6050 2900 0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726261
-P 6800 3650
+P 6150 3600
 AR Path="/5F726261" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726261" Ref="U?"  Part="1" 
-F 0 "U?" H 6500 4400 60  0000 C CNN
-F 1 "MCP23008-E_P" H 6800 4500 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 7000 3850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 3950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 7000 4050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 7000 4150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 7000 4250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 7000 4350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 4450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 7000 4550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 7000 4650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 7000 4750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7000 4850 60  0001 L CNN "Status"
-	1    6800 3650
+AR Path="/5F71652A/5F726261" Ref="U15"  Part="1" 
+F 0 "U15" H 5850 4350 60  0000 C CNN
+F 1 "MCP23008-E_P" H 6150 4450 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 3800 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 3900 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 6350 4000 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 6350 4100 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6350 4200 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 6350 4300 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 4400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 6350 4500 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 6350 4600 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6350 4700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 4800 60  0001 L CNN "Status"
+	1    6150 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726267
-P 5150 3650
+P 4500 3600
 AR Path="/5F726267" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726267" Ref="U?"  Part="1" 
-F 0 "U?" H 4950 4550 50  0000 C CNN
-F 1 "74LV8154" H 4900 4450 50  0000 C CNN
-F 2 "" H 4900 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4900 4300 50  0001 C CNN
-	1    5150 3650
+AR Path="/5F71652A/5F726267" Ref="U11"  Part="1" 
+F 0 "U11" H 4300 4500 50  0000 C CNN
+F 1 "74LV8154" H 4250 4400 50  0000 C CNN
+F 2 "" H 4250 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 4250 50  0001 C CNN
+	1    4500 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 3150 8500 3150
+	8600 3100 7850 3100
 Wire Wire Line
-	8500 3250 9250 3250
+	7850 3200 8600 3200
 Wire Wire Line
-	9250 3350 8500 3350
+	8600 3300 7850 3300
 Wire Wire Line
-	8500 3450 9250 3450
+	7850 3400 8600 3400
 Wire Wire Line
-	9250 3550 8500 3550
+	8600 3500 7850 3500
 Wire Wire Line
-	8500 3650 9250 3650
+	7850 3600 8600 3600
 Wire Wire Line
-	9250 3750 8500 3750
+	8600 3700 7850 3700
 Wire Wire Line
-	8500 3850 9250 3850
-Text Label 9250 4450 2    50   ~ 0
+	7850 3800 8600 3800
+Text Label 8600 4400 2    50   ~ 0
 3V3
-Text Label 9250 4350 2    50   ~ 0
+Text Label 8600 4300 2    50   ~ 0
 GND
-Text Label 7700 3950 2    50   ~ 0
+Text Label 7050 3900 2    50   ~ 0
 NCCLR
-Text Label 7700 3850 2    50   ~ 0
+Text Label 7050 3800 2    50   ~ 0
 RCLK
-Text Label 9250 4050 2    50   ~ 0
+Text Label 8600 4000 2    50   ~ 0
 I2C1_SCL
-Text Label 9250 3950 2    50   ~ 0
+Text Label 8600 3900 2    50   ~ 0
 I2C1_SDA
-Text Label 7700 3650 2    50   ~ 0
+Text Label 7050 3600 2    50   ~ 0
 NGBU
-Text Label 7700 3550 2    50   ~ 0
+Text Label 7050 3500 2    50   ~ 0
 NGBL
-Text Label 7700 3450 2    50   ~ 0
+Text Label 7050 3400 2    50   ~ 0
 NGAU
-Text Label 7700 3350 2    50   ~ 0
+Text Label 7050 3300 2    50   ~ 0
 NGAL
-Text Label 7700 3250 2    50   ~ 0
+Text Label 7050 3200 2    50   ~ 0
 CHANNEL_IN_13
-Text Label 7700 3150 2    50   ~ 0
+Text Label 7050 3100 2    50   ~ 0
 CHANNEL_IN_12
-Text Label 8100 2950 0    50   ~ 0
+Text Label 7450 2900 0    50   ~ 0
 3V3
-Text Label 8100 4350 3    50   ~ 0
+Text Label 7450 4300 3    50   ~ 0
 GND
-Text Label 9750 4650 3    50   ~ 0
+Text Label 9100 4600 3    50   ~ 0
 GND
-Text Label 9650 2950 0    50   ~ 0
+Text Label 9000 2900 0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72628E
-P 9750 3650
+P 9100 3600
 AR Path="/5F72628E" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72628E" Ref="U?"  Part="1" 
-F 0 "U?" H 9450 4400 60  0000 C CNN
-F 1 "MCP23008-E_P" H 9750 4500 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 9950 3850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9950 3950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 9950 4050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 9950 4150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 9950 4250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 9950 4350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9950 4450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9950 4550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9950 4650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 9950 4750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9950 4850 60  0001 L CNN "Status"
-	1    9750 3650
+AR Path="/5F71652A/5F72628E" Ref="U24"  Part="1" 
+F 0 "U24" H 8800 4350 60  0000 C CNN
+F 1 "MCP23008-E_P" H 9100 4450 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 9300 3800 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9300 3900 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 9300 4000 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 9300 4100 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 9300 4200 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 9300 4300 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9300 4400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9300 4500 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9300 4600 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 9300 4700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9300 4800 60  0001 L CNN "Status"
+	1    9100 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726294
-P 8100 3650
+P 7450 3600
 AR Path="/5F726294" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726294" Ref="U?"  Part="1" 
-F 0 "U?" H 7900 4550 50  0000 C CNN
-F 1 "74LV8154" H 7850 4450 50  0000 C CNN
-F 2 "" H 7850 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7850 4300 50  0001 C CNN
-	1    8100 3650
+AR Path="/5F71652A/5F726294" Ref="U20"  Part="1" 
+F 0 "U20" H 7250 4500 50  0000 C CNN
+F 1 "74LV8154" H 7200 4400 50  0000 C CNN
+F 2 "" H 7200 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7200 4250 50  0001 C CNN
+	1    7450 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F72629A
-P 11000 8650
+P 10350 7800
 AR Path="/5F72629A" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72629A" Ref="U?"  Part="1" 
-F 0 "U?" H 10800 9550 50  0000 C CNN
-F 1 "74LV8154" H 10750 9450 50  0000 C CNN
-F 2 "" H 10750 9300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10750 9300 50  0001 C CNN
-	1    11000 8650
+AR Path="/5F71652A/5F72629A" Ref="U29"  Part="1" 
+F 0 "U29" H 10150 8700 50  0000 C CNN
+F 1 "74LV8154" H 10100 8600 50  0000 C CNN
+F 2 "" H 10100 8450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 8450 50  0001 C CNN
+	1    10350 7800
 	1    0    0    -1  
 $EndComp
-Text Label 12550 7950 0    50   ~ 0
+Text Label 11900 7100 0    50   ~ 0
 3V3
-Text Label 12650 9650 3    50   ~ 0
+Text Label 12000 8800 3    50   ~ 0
 GND
-Text Label 11000 9350 3    50   ~ 0
+Text Label 10350 8500 3    50   ~ 0
 GND
-Text Label 11000 7950 0    50   ~ 0
+Text Label 10350 7100 0    50   ~ 0
 3V3
-Text Label 10600 8150 2    50   ~ 0
+Text Label 9950 7300 2    50   ~ 0
 CHANNEL_IN_30
-Text Label 10600 8250 2    50   ~ 0
+Text Label 9950 7400 2    50   ~ 0
 CHANNEL_IN_31
-Text Label 10600 8350 2    50   ~ 0
+Text Label 9950 7500 2    50   ~ 0
 NGAL
-Text Label 10600 8450 2    50   ~ 0
+Text Label 9950 7600 2    50   ~ 0
 NGAU
-Text Label 10600 8550 2    50   ~ 0
+Text Label 9950 7700 2    50   ~ 0
 NGBL
-Text Label 10600 8650 2    50   ~ 0
+Text Label 9950 7800 2    50   ~ 0
 NGBU
-Text Label 10600 8850 2    50   ~ 0
+Text Label 9950 8000 2    50   ~ 0
 RCLK
-Text Label 10600 8950 2    50   ~ 0
+Text Label 9950 8100 2    50   ~ 0
 NCCLR
-Text Label 12150 9450 2    50   ~ 0
+Text Label 11500 8600 2    50   ~ 0
 3V3
 Wire Wire Line
-	12150 6050 11400 6050
+	11500 5200 10750 5200
 Wire Wire Line
-	11400 6150 12150 6150
+	10750 5300 11500 5300
 Wire Wire Line
-	12150 6250 11400 6250
+	11500 5400 10750 5400
 Wire Wire Line
-	11400 6350 12150 6350
+	10750 5500 11500 5500
 Wire Wire Line
-	12150 6450 11400 6450
+	11500 5600 10750 5600
 Wire Wire Line
-	11400 6550 12150 6550
+	10750 5700 11500 5700
 Wire Wire Line
-	12150 6650 11400 6650
+	11500 5800 10750 5800
 Wire Wire Line
-	11400 6750 12150 6750
-Text Label 12150 7350 2    50   ~ 0
+	10750 5900 11500 5900
+Text Label 11500 6500 2    50   ~ 0
 3V3
-Text Label 10600 6850 2    50   ~ 0
+Text Label 9950 6000 2    50   ~ 0
 NCCLR
-Text Label 10600 6750 2    50   ~ 0
+Text Label 9950 5900 2    50   ~ 0
 RCLK
-Text Label 10600 6550 2    50   ~ 0
+Text Label 9950 5700 2    50   ~ 0
 NGBU
-Text Label 10600 6450 2    50   ~ 0
+Text Label 9950 5600 2    50   ~ 0
 NGBL
-Text Label 10600 6350 2    50   ~ 0
+Text Label 9950 5500 2    50   ~ 0
 NGAU
-Text Label 10600 6250 2    50   ~ 0
+Text Label 9950 5400 2    50   ~ 0
 NGAL
-Text Label 10600 6150 2    50   ~ 0
+Text Label 9950 5300 2    50   ~ 0
 CHANNEL_IN_23
-Text Label 10600 6050 2    50   ~ 0
+Text Label 9950 5200 2    50   ~ 0
 CHANNEL_IN_22
-Text Label 11000 5850 0    50   ~ 0
+Text Label 10350 5000 0    50   ~ 0
 3V3
-Text Label 11000 7250 3    50   ~ 0
+Text Label 10350 6400 3    50   ~ 0
 GND
-Text Label 12650 7550 3    50   ~ 0
+Text Label 12000 6700 3    50   ~ 0
 GND
-Text Label 12550 5850 0    50   ~ 0
+Text Label 11900 5000 0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7262CB
-P 12650 6550
+P 12000 5700
 AR Path="/5F7262CB" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262CB" Ref="U?"  Part="1" 
-F 0 "U?" H 12350 7300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 12650 7400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 12850 6750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 6850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 12850 6950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 12850 7050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 12850 7150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 12850 7250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 7350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12850 7450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12850 7550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 12850 7650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12850 7750 60  0001 L CNN "Status"
-	1    12650 6550
+AR Path="/5F71652A/5F7262CB" Ref="U32"  Part="1" 
+F 0 "U32" H 11700 6450 60  0000 C CNN
+F 1 "MCP23008-E_P" H 12000 6550 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 5900 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 6000 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 12200 6100 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 12200 6200 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12200 6300 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 12200 6400 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 6500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12200 6600 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12200 6700 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 12200 6800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12200 6900 60  0001 L CNN "Status"
+	1    12000 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F7262D1
-P 11000 6550
+P 10350 5700
 AR Path="/5F7262D1" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262D1" Ref="U?"  Part="1" 
-F 0 "U?" H 10800 7450 50  0000 C CNN
-F 1 "74LV8154" H 10750 7350 50  0000 C CNN
-F 2 "" H 10750 7200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10750 7200 50  0001 C CNN
-	1    11000 6550
+AR Path="/5F71652A/5F7262D1" Ref="U28"  Part="1" 
+F 0 "U28" H 10150 6600 50  0000 C CNN
+F 1 "74LV8154" H 10100 6500 50  0000 C CNN
+F 2 "" H 10100 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 10100 6350 50  0001 C CNN
+	1    10350 5700
 	1    0    0    -1  
 $EndComp
-Text Label 12150 7050 2    50   ~ 0
+Text Label 11500 6200 2    50   ~ 0
 GND
-Text Label 12150 7250 2    50   ~ 0
+Text Label 11500 6400 2    50   ~ 0
 3V3
-Text Label 12150 7150 2    50   ~ 0
+Text Label 11500 6300 2    50   ~ 0
 3V3
-Text Label 12150 9150 2    50   ~ 0
+Text Label 11500 8300 2    50   ~ 0
 3V3
-Text Label 12150 9250 2    50   ~ 0
+Text Label 11500 8400 2    50   ~ 0
 3V3
-Text Label 12150 9350 2    50   ~ 0
+Text Label 11500 8500 2    50   ~ 0
 3V3
-Text Label 9250 9250 2    50   ~ 0
+Text Label 8600 8400 2    50   ~ 0
 3V3
-Text Label 9250 9150 2    50   ~ 0
+Text Label 8600 8300 2    50   ~ 0
 3V3
-Text Label 6300 9150 2    50   ~ 0
+Text Label 5650 8300 2    50   ~ 0
 3V3
-Text Label 6300 9350 2    50   ~ 0
+Text Label 5650 8500 2    50   ~ 0
 3V3
-Text Label 3300 9150 2    50   ~ 0
+Text Label 2650 8300 2    50   ~ 0
 3V3
-Text Label 9150 7150 2    50   ~ 0
+Text Label 8500 6300 2    50   ~ 0
 3V3
-Text Label 6300 7250 2    50   ~ 0
+Text Label 5650 6400 2    50   ~ 0
 3V3
-Text Label 3300 7250 2    50   ~ 0
+Text Label 2650 6400 2    50   ~ 0
 GND
-Text Label 6300 7150 2    50   ~ 0
+Text Label 5650 6300 2    50   ~ 0
 GND
-Text Label 9150 7250 2    50   ~ 0
+Text Label 8500 6400 2    50   ~ 0
 GND
-Text Label 3300 9350 2    50   ~ 0
+Text Label 2650 8500 2    50   ~ 0
 GND
-Text Label 6300 9250 2    50   ~ 0
+Text Label 5650 8400 2    50   ~ 0
 GND
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F7262E9
-P 8000 6550
+P 7350 5700
 AR Path="/5F7262E9" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262E9" Ref="U?"  Part="1" 
-F 0 "U?" H 7800 7450 50  0000 C CNN
-F 1 "74LV8154" H 7750 7350 50  0000 C CNN
-F 2 "" H 7750 7200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7750 7200 50  0001 C CNN
-	1    8000 6550
+AR Path="/5F71652A/5F7262E9" Ref="U19"  Part="1" 
+F 0 "U19" H 7150 6600 50  0000 C CNN
+F 1 "74LV8154" H 7100 6500 50  0000 C CNN
+F 2 "" H 7100 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7100 6350 50  0001 C CNN
+	1    7350 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7262F8
-P 9650 6550
+P 9000 5700
 AR Path="/5F7262F8" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7262F8" Ref="U?"  Part="1" 
-F 0 "U?" H 9350 7300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 9650 7400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 9850 6750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9850 6850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 9850 6950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 9850 7050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 9850 7150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 9850 7250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9850 7350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9850 7450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9850 7550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 9850 7650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9850 7750 60  0001 L CNN "Status"
-	1    9650 6550
+AR Path="/5F71652A/5F7262F8" Ref="U23"  Part="1" 
+F 0 "U23" H 8700 6450 60  0000 C CNN
+F 1 "MCP23008-E_P" H 9000 6550 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 9200 5900 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9200 6000 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 9200 6100 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 9200 6200 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 9200 6300 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 9200 6400 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9200 6500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9200 6600 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9200 6700 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 9200 6800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9200 6900 60  0001 L CNN "Status"
+	1    9000 5700
 	1    0    0    -1  
 $EndComp
-Text Label 9550 5850 0    50   ~ 0
+Text Label 8900 5000 0    50   ~ 0
 3V3
-Text Label 9650 7550 3    50   ~ 0
+Text Label 9000 6700 3    50   ~ 0
 GND
-Text Label 8000 7250 3    50   ~ 0
+Text Label 7350 6400 3    50   ~ 0
 GND
-Text Label 8000 5850 0    50   ~ 0
+Text Label 7350 5000 0    50   ~ 0
 3V3
-Text Label 7600 6050 2    50   ~ 0
+Text Label 6950 5200 2    50   ~ 0
 CHANNEL_IN_20
-Text Label 7600 6150 2    50   ~ 0
+Text Label 6950 5300 2    50   ~ 0
 CHANNEL_IN_21
-Text Label 7600 6250 2    50   ~ 0
+Text Label 6950 5400 2    50   ~ 0
 NGAL
-Text Label 7600 6350 2    50   ~ 0
+Text Label 6950 5500 2    50   ~ 0
 NGAU
-Text Label 7600 6450 2    50   ~ 0
+Text Label 6950 5600 2    50   ~ 0
 NGBL
-Text Label 7600 6550 2    50   ~ 0
+Text Label 6950 5700 2    50   ~ 0
 NGBU
-Text Label 9150 7050 2    50   ~ 0
+Text Label 8500 6200 2    50   ~ 0
 GND
-Text Label 7600 6750 2    50   ~ 0
+Text Label 6950 5900 2    50   ~ 0
 RCLK
-Text Label 7600 6850 2    50   ~ 0
+Text Label 6950 6000 2    50   ~ 0
 NCCLR
-Text Label 9150 7350 2    50   ~ 0
+Text Label 8500 6500 2    50   ~ 0
 3V3
 Wire Wire Line
-	8400 6750 9150 6750
+	7750 5900 8500 5900
 Wire Wire Line
-	9150 6650 8400 6650
+	8500 5800 7750 5800
 Wire Wire Line
-	8400 6550 9150 6550
+	7750 5700 8500 5700
 Wire Wire Line
-	9150 6450 8400 6450
+	8500 5600 7750 5600
 Wire Wire Line
-	8400 6350 9150 6350
+	7750 5500 8500 5500
 Wire Wire Line
-	9150 6250 8400 6250
+	8500 5400 7750 5400
 Wire Wire Line
-	8400 6150 9150 6150
+	7750 5300 8500 5300
 Wire Wire Line
-	9150 6050 8400 6050
+	8500 5200 7750 5200
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726314
-P 5150 6550
+P 4500 5700
 AR Path="/5F726314" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726314" Ref="U?"  Part="1" 
-F 0 "U?" H 4950 7450 50  0000 C CNN
-F 1 "74LV8154" H 4900 7350 50  0000 C CNN
-F 2 "" H 4900 7200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4900 7200 50  0001 C CNN
-	1    5150 6550
+AR Path="/5F71652A/5F726314" Ref="U12"  Part="1" 
+F 0 "U12" H 4300 6600 50  0000 C CNN
+F 1 "74LV8154" H 4250 6500 50  0000 C CNN
+F 2 "" H 4250 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 6350 50  0001 C CNN
+	1    4500 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726323
-P 6800 6550
+P 6150 5700
 AR Path="/5F726323" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726323" Ref="U?"  Part="1" 
-F 0 "U?" H 6500 7300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 6800 7400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 7000 6750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 6850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 7000 6950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 7000 7050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 7000 7150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 7000 7250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 7350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 7000 7450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 7000 7550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 7000 7650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7000 7750 60  0001 L CNN "Status"
-	1    6800 6550
+AR Path="/5F71652A/5F726323" Ref="U16"  Part="1" 
+F 0 "U16" H 5850 6450 60  0000 C CNN
+F 1 "MCP23008-E_P" H 6150 6550 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 5900 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 6000 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 6350 6100 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 6350 6200 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6350 6300 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 6350 6400 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 6500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 6350 6600 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 6350 6700 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6350 6800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 6900 60  0001 L CNN "Status"
+	1    6150 5700
 	1    0    0    -1  
 $EndComp
-Text Label 6700 5850 0    50   ~ 0
+Text Label 6050 5000 0    50   ~ 0
 3V3
-Text Label 6800 7550 3    50   ~ 0
+Text Label 6150 6700 3    50   ~ 0
 GND
-Text Label 5150 7250 3    50   ~ 0
+Text Label 4500 6400 3    50   ~ 0
 GND
-Text Label 5150 5850 0    50   ~ 0
+Text Label 4500 5000 0    50   ~ 0
 3V3
-Text Label 4750 6050 2    50   ~ 0
+Text Label 4100 5200 2    50   ~ 0
 CHANNEL_IN_18
-Text Label 4750 6150 2    50   ~ 0
+Text Label 4100 5300 2    50   ~ 0
 CHANNEL_IN_19
-Text Label 4750 6250 2    50   ~ 0
+Text Label 4100 5400 2    50   ~ 0
 NGAL
-Text Label 4750 6350 2    50   ~ 0
+Text Label 4100 5500 2    50   ~ 0
 NGAU
-Text Label 4750 6450 2    50   ~ 0
+Text Label 4100 5600 2    50   ~ 0
 NGBL
-Text Label 4750 6550 2    50   ~ 0
+Text Label 4100 5700 2    50   ~ 0
 NGBU
-Text Label 6300 7050 2    50   ~ 0
+Text Label 5650 6200 2    50   ~ 0
 GND
-Text Label 4750 6750 2    50   ~ 0
+Text Label 4100 5900 2    50   ~ 0
 RCLK
-Text Label 4750 6850 2    50   ~ 0
+Text Label 4100 6000 2    50   ~ 0
 NCCLR
-Text Label 6300 7350 2    50   ~ 0
+Text Label 5650 6500 2    50   ~ 0
 3V3
 Wire Wire Line
-	5550 6750 6300 6750
+	4900 5900 5650 5900
 Wire Wire Line
-	6300 6650 5550 6650
+	5650 5800 4900 5800
 Wire Wire Line
-	5550 6550 6300 6550
+	4900 5700 5650 5700
 Wire Wire Line
-	6300 6450 5550 6450
+	5650 5600 4900 5600
 Wire Wire Line
-	5550 6350 6300 6350
+	4900 5500 5650 5500
 Wire Wire Line
-	6300 6250 5550 6250
+	5650 5400 4900 5400
 Wire Wire Line
-	5550 6150 6300 6150
+	4900 5300 5650 5300
 Wire Wire Line
-	6300 6050 5550 6050
+	5650 5200 4900 5200
 Wire Wire Line
-	3300 6050 2550 6050
+	2650 5200 1900 5200
 Wire Wire Line
-	2550 6150 3300 6150
+	1900 5300 2650 5300
 Wire Wire Line
-	3300 6250 2550 6250
+	2650 5400 1900 5400
 Wire Wire Line
-	2550 6350 3300 6350
+	1900 5500 2650 5500
 Wire Wire Line
-	3300 6450 2550 6450
+	2650 5600 1900 5600
 Wire Wire Line
-	2550 6550 3300 6550
+	1900 5700 2650 5700
 Wire Wire Line
-	3300 6650 2550 6650
+	2650 5800 1900 5800
 Wire Wire Line
-	2550 6750 3300 6750
-Text Label 3300 7350 2    50   ~ 0
+	1900 5900 2650 5900
+Text Label 2650 6500 2    50   ~ 0
 3V3
-Text Label 3300 7150 2    50   ~ 0
+Text Label 2650 6300 2    50   ~ 0
 GND
-Text Label 1750 6850 2    50   ~ 0
+Text Label 1100 6000 2    50   ~ 0
 NCCLR
-Text Label 1750 6750 2    50   ~ 0
+Text Label 1100 5900 2    50   ~ 0
 RCLK
-Text Label 3300 7050 2    50   ~ 0
+Text Label 2650 6200 2    50   ~ 0
 GND
-Text Label 3300 6950 2    50   ~ 0
+Text Label 2650 6100 2    50   ~ 0
 I2C2_SCL
-Text Label 3300 6850 2    50   ~ 0
+Text Label 2650 6000 2    50   ~ 0
 I2C2_SDA
-Text Label 1750 6550 2    50   ~ 0
+Text Label 1100 5700 2    50   ~ 0
 NGBU
-Text Label 1750 6450 2    50   ~ 0
+Text Label 1100 5600 2    50   ~ 0
 NGBL
-Text Label 1750 6350 2    50   ~ 0
+Text Label 1100 5500 2    50   ~ 0
 NGAU
-Text Label 1750 6250 2    50   ~ 0
+Text Label 1100 5400 2    50   ~ 0
 NGAL
-Text Label 1750 6150 2    50   ~ 0
+Text Label 1100 5300 2    50   ~ 0
 CHANNEL_IN_17
-Text Label 1750 6050 2    50   ~ 0
+Text Label 1100 5200 2    50   ~ 0
 CHANNEL_IN_16
-Text Label 2150 5850 0    50   ~ 0
+Text Label 1500 5000 0    50   ~ 0
 3V3
-Text Label 2150 7250 3    50   ~ 0
+Text Label 1500 6400 3    50   ~ 0
 GND
-Text Label 3800 7550 3    50   ~ 0
+Text Label 3150 6700 3    50   ~ 0
 GND
-Text Label 3700 5850 0    50   ~ 0
+Text Label 3050 5000 0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F726361
-P 3800 6550
+P 3150 5700
 AR Path="/5F726361" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726361" Ref="U?"  Part="1" 
-F 0 "U?" H 3500 7300 60  0000 C CNN
-F 1 "MCP23008-E_P" H 3800 7400 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 4000 6750 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 6850 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 4000 6950 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 4000 7050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4000 7150 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 4000 7250 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 7350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 4000 7450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 4000 7550 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 4000 7650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4000 7750 60  0001 L CNN "Status"
-	1    3800 6550
+AR Path="/5F71652A/5F726361" Ref="U8"  Part="1" 
+F 0 "U8" H 2850 6450 60  0000 C CNN
+F 1 "MCP23008-E_P" H 3150 6550 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 5900 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 6000 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 3350 6100 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 3350 6200 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3350 6300 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 3350 6400 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 6500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 3350 6600 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 3350 6700 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 3350 6800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3350 6900 60  0001 L CNN "Status"
+	1    3150 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F726367
-P 2150 6550
+P 1500 5700
 AR Path="/5F726367" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F726367" Ref="U?"  Part="1" 
-F 0 "U?" H 1950 7450 50  0000 C CNN
-F 1 "74LV8154" H 1900 7350 50  0000 C CNN
-F 2 "" H 1900 7200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1900 7200 50  0001 C CNN
-	1    2150 6550
+AR Path="/5F71652A/5F726367" Ref="U3"  Part="1" 
+F 0 "U3" H 1300 6600 50  0000 C CNN
+F 1 "74LV8154" H 1250 6500 50  0000 C CNN
+F 2 "" H 1250 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 6350 50  0001 C CNN
+	1    1500 5700
 	1    0    0    -1  
 $EndComp
-Text Label 1750 6950 2    50   ~ 0
+Text Label 1100 6100 2    50   ~ 0
 GND
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F72636E
-P 2150 8650
+P 1500 7800
 AR Path="/5F72636E" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72636E" Ref="U?"  Part="1" 
-F 0 "U?" H 1950 9550 50  0000 C CNN
-F 1 "74LV8154" H 1900 9450 50  0000 C CNN
-F 2 "" H 1900 9300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1900 9300 50  0001 C CNN
-	1    2150 8650
+AR Path="/5F71652A/5F72636E" Ref="U4"  Part="1" 
+F 0 "U4" H 1300 8700 50  0000 C CNN
+F 1 "74LV8154" H 1250 8600 50  0000 C CNN
+F 2 "" H 1250 8450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 1250 8450 50  0001 C CNN
+	1    1500 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72637D
-P 3800 8650
+P 3150 7800
 AR Path="/5F72637D" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72637D" Ref="U?"  Part="1" 
-F 0 "U?" H 3400 9350 60  0000 C CNN
-F 1 "MCP23008-E_P" H 3200 9450 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 4000 8850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 8950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 4000 9050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 4000 9150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4000 9250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 4000 9350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 4000 9450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 4000 9550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 4000 9650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 4000 9750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4000 9850 60  0001 L CNN "Status"
-	1    3800 8650
+AR Path="/5F71652A/5F72637D" Ref="U9"  Part="1" 
+F 0 "U9" H 2750 8500 60  0000 C CNN
+F 1 "MCP23008-E_P" H 2550 8600 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 3350 8000 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 8100 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 3350 8200 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 3350 8300 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3350 8400 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 3350 8500 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 3350 8600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 3350 8700 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 3350 8800 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 3350 8900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3350 9000 60  0001 L CNN "Status"
+	1    3150 7800
 	1    0    0    -1  
 $EndComp
-Text Label 3700 7950 0    50   ~ 0
+Text Label 3050 7100 0    50   ~ 0
 3V3
-Text Label 3800 9650 3    50   ~ 0
+Text Label 3150 8800 3    50   ~ 0
 GND
-Text Label 2150 9350 3    50   ~ 0
+Text Label 1500 8500 3    50   ~ 0
 GND
-Text Label 2150 7950 0    50   ~ 0
+Text Label 1500 7100 0    50   ~ 0
 3V3
-Text Label 1750 8150 2    50   ~ 0
+Text Label 1100 7300 2    50   ~ 0
 CHANNEL_IN_24
-Text Label 1750 8250 2    50   ~ 0
+Text Label 1100 7400 2    50   ~ 0
 CHANNEL_IN_25
-Text Label 1750 8350 2    50   ~ 0
+Text Label 1100 7500 2    50   ~ 0
 NGAL
-Text Label 1750 8450 2    50   ~ 0
+Text Label 1100 7600 2    50   ~ 0
 NGAU
-Text Label 1750 8550 2    50   ~ 0
+Text Label 1100 7700 2    50   ~ 0
 NGBL
-Text Label 1750 8650 2    50   ~ 0
+Text Label 1100 7800 2    50   ~ 0
 NGBU
-Text Label 1750 8850 2    50   ~ 0
+Text Label 1100 8000 2    50   ~ 0
 RCLK
-Text Label 1750 8950 2    50   ~ 0
+Text Label 1100 8100 2    50   ~ 0
 NCCLR
-Text Label 3300 9250 2    50   ~ 0
+Text Label 2650 8400 2    50   ~ 0
 GND
-Text Label 3300 9450 2    50   ~ 0
+Text Label 2650 8600 2    50   ~ 0
 3V3
 Wire Wire Line
-	2550 8850 3300 8850
+	1900 8000 2650 8000
 Wire Wire Line
-	3300 8750 2550 8750
+	2650 7900 1900 7900
 Wire Wire Line
-	2550 8650 3300 8650
+	1900 7800 2650 7800
 Wire Wire Line
-	3300 8550 2550 8550
+	2650 7700 1900 7700
 Wire Wire Line
-	2550 8450 3300 8450
+	1900 7600 2650 7600
 Wire Wire Line
-	3300 8350 2550 8350
+	2650 7500 1900 7500
 Wire Wire Line
-	2550 8250 3300 8250
+	1900 7400 2650 7400
 Wire Wire Line
-	3300 8150 2550 8150
+	2650 7300 1900 7300
 Wire Wire Line
-	6300 8150 5550 8150
+	5650 7300 4900 7300
 Wire Wire Line
-	5550 8250 6300 8250
+	4900 7400 5650 7400
 Wire Wire Line
-	6300 8350 5550 8350
+	5650 7500 4900 7500
 Wire Wire Line
-	5550 8450 6300 8450
+	4900 7600 5650 7600
 Wire Wire Line
-	6300 8550 5550 8550
+	5650 7700 4900 7700
 Wire Wire Line
-	5550 8650 6300 8650
+	4900 7800 5650 7800
 Wire Wire Line
-	6300 8750 5550 8750
+	5650 7900 4900 7900
 Wire Wire Line
-	5550 8850 6300 8850
-Text Label 6300 9450 2    50   ~ 0
+	4900 8000 5650 8000
+Text Label 5650 8600 2    50   ~ 0
 3V3
-Text Label 4750 8950 2    50   ~ 0
+Text Label 4100 8100 2    50   ~ 0
 NCCLR
-Text Label 4750 8850 2    50   ~ 0
+Text Label 4100 8000 2    50   ~ 0
 RCLK
-Text Label 4750 8650 2    50   ~ 0
+Text Label 4100 7800 2    50   ~ 0
 NGBU
-Text Label 4750 8550 2    50   ~ 0
+Text Label 4100 7700 2    50   ~ 0
 NGBL
-Text Label 4750 8450 2    50   ~ 0
+Text Label 4100 7600 2    50   ~ 0
 NGAU
-Text Label 4750 8350 2    50   ~ 0
+Text Label 4100 7500 2    50   ~ 0
 NGAL
-Text Label 4750 8250 2    50   ~ 0
+Text Label 4100 7400 2    50   ~ 0
 CHANNEL_IN_27
-Text Label 4750 8150 2    50   ~ 0
+Text Label 4100 7300 2    50   ~ 0
 CHANNEL_IN_26
-Text Label 5150 7950 0    50   ~ 0
+Text Label 4500 7100 0    50   ~ 0
 3V3
-Text Label 5150 9350 3    50   ~ 0
+Text Label 4500 8500 3    50   ~ 0
 GND
-Text Label 6800 9650 3    50   ~ 0
+Text Label 6150 8800 3    50   ~ 0
 GND
-Text Label 6700 7950 0    50   ~ 0
+Text Label 6050 7100 0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7263B7
-P 6800 8650
+P 6150 7800
 AR Path="/5F7263B7" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263B7" Ref="U?"  Part="1" 
-F 0 "U?" H 6500 9400 60  0000 C CNN
-F 1 "MCP23008-E_P" H 6800 9500 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 7000 8850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 8950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 7000 9050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 7000 9150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 7000 9250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 7000 9350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 7000 9450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 7000 9550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 7000 9650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 7000 9750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7000 9850 60  0001 L CNN "Status"
-	1    6800 8650
+AR Path="/5F71652A/5F7263B7" Ref="U17"  Part="1" 
+F 0 "U17" H 5850 8550 60  0000 C CNN
+F 1 "MCP23008-E_P" H 6150 8650 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 6350 8000 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 8100 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 6350 8200 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 6350 8300 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6350 8400 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 6350 8500 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 6350 8600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 6350 8700 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 6350 8800 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6350 8900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 9000 60  0001 L CNN "Status"
+	1    6150 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F7263BD
-P 5150 8650
+P 4500 7800
 AR Path="/5F7263BD" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263BD" Ref="U?"  Part="1" 
-F 0 "U?" H 4950 9550 50  0000 C CNN
-F 1 "74LV8154" H 4900 9450 50  0000 C CNN
-F 2 "" H 4900 9300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4900 9300 50  0001 C CNN
-	1    5150 8650
+AR Path="/5F71652A/5F7263BD" Ref="U13"  Part="1" 
+F 0 "U13" H 4300 8700 50  0000 C CNN
+F 1 "74LV8154" H 4250 8600 50  0000 C CNN
+F 2 "" H 4250 8450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 4250 8450 50  0001 C CNN
+	1    4500 7800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 8150 8500 8150
+	8600 7300 7850 7300
 Wire Wire Line
-	8500 8250 9250 8250
+	7850 7400 8600 7400
 Wire Wire Line
-	9250 8350 8500 8350
+	8600 7500 7850 7500
 Wire Wire Line
-	8500 8450 9250 8450
+	7850 7600 8600 7600
 Wire Wire Line
-	9250 8550 8500 8550
+	8600 7700 7850 7700
 Wire Wire Line
-	8500 8650 9250 8650
+	7850 7800 8600 7800
 Wire Wire Line
-	9250 8750 8500 8750
+	8600 7900 7850 7900
 Wire Wire Line
-	8500 8850 9250 8850
-Text Label 9250 9450 2    50   ~ 0
+	7850 8000 8600 8000
+Text Label 8600 8600 2    50   ~ 0
 3V3
-Text Label 9250 9350 2    50   ~ 0
+Text Label 8600 8500 2    50   ~ 0
 GND
-Text Label 7700 8950 2    50   ~ 0
+Text Label 7050 8100 2    50   ~ 0
 NCCLR
-Text Label 7700 8850 2    50   ~ 0
+Text Label 7050 8000 2    50   ~ 0
 RCLK
-Text Label 7700 8650 2    50   ~ 0
+Text Label 7050 7800 2    50   ~ 0
 NGBU
-Text Label 7700 8550 2    50   ~ 0
+Text Label 7050 7700 2    50   ~ 0
 NGBL
-Text Label 7700 8450 2    50   ~ 0
+Text Label 7050 7600 2    50   ~ 0
 NGAU
-Text Label 7700 8350 2    50   ~ 0
+Text Label 7050 7500 2    50   ~ 0
 NGAL
-Text Label 7700 8250 2    50   ~ 0
+Text Label 7050 7400 2    50   ~ 0
 CHANNEL_IN_29
-Text Label 7700 8150 2    50   ~ 0
+Text Label 7050 7300 2    50   ~ 0
 CHANNEL_IN_28
-Text Label 8100 7950 0    50   ~ 0
+Text Label 7450 7100 0    50   ~ 0
 3V3
-Text Label 8100 9350 3    50   ~ 0
+Text Label 7450 8500 3    50   ~ 0
 GND
-Text Label 9750 9650 3    50   ~ 0
+Text Label 9100 8800 3    50   ~ 0
 GND
-Text Label 9650 7950 0    50   ~ 0
+Text Label 9000 7100 0    50   ~ 0
 3V3
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F7263E2
-P 9750 8650
+P 9100 7800
 AR Path="/5F7263E2" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263E2" Ref="U?"  Part="1" 
-F 0 "U?" H 9450 9400 60  0000 C CNN
-F 1 "MCP23008-E_P" H 9750 9500 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 9950 8850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9950 8950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 9950 9050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 9950 9150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 9950 9250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 9950 9350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9950 9450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9950 9550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9950 9650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 9950 9750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9950 9850 60  0001 L CNN "Status"
-	1    9750 8650
+AR Path="/5F71652A/5F7263E2" Ref="U25"  Part="1" 
+F 0 "U25" H 8800 8550 60  0000 C CNN
+F 1 "MCP23008-E_P" H 9100 8650 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 9300 8000 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9300 8100 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 9300 8200 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 9300 8300 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 9300 8400 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 9300 8500 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 9300 8600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 9300 8700 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 9300 8800 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 9300 8900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9300 9000 60  0001 L CNN "Status"
+	1    9100 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LV8154 U?
 U 1 1 5F7263E8
-P 8100 8650
+P 7450 7800
 AR Path="/5F7263E8" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F7263E8" Ref="U?"  Part="1" 
-F 0 "U?" H 7900 9550 50  0000 C CNN
-F 1 "74LV8154" H 7850 9450 50  0000 C CNN
-F 2 "" H 7850 9300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7850 9300 50  0001 C CNN
-	1    8100 8650
+AR Path="/5F71652A/5F7263E8" Ref="U21"  Part="1" 
+F 0 "U21" H 7250 8700 50  0000 C CNN
+F 1 "74LV8154" H 7200 8600 50  0000 C CNN
+F 2 "" H 7200 8450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf" H 7200 8450 50  0001 C CNN
+	1    7450 7800
 	1    0    0    -1  
 $EndComp
-Text Label 6300 6950 2    50   ~ 0
+Text Label 5650 6100 2    50   ~ 0
 I2C2_SCL
-Text Label 6300 6850 2    50   ~ 0
+Text Label 5650 6000 2    50   ~ 0
 I2C2_SDA
-Text Label 9150 6950 2    50   ~ 0
+Text Label 8500 6100 2    50   ~ 0
 I2C2_SCL
-Text Label 9150 6850 2    50   ~ 0
+Text Label 8500 6000 2    50   ~ 0
 I2C2_SDA
-Text Label 12150 6950 2    50   ~ 0
+Text Label 11500 6100 2    50   ~ 0
 I2C2_SCL
-Text Label 12150 6850 2    50   ~ 0
+Text Label 11500 6000 2    50   ~ 0
 I2C2_SDA
-Text Label 3300 9050 2    50   ~ 0
+Text Label 2650 8200 2    50   ~ 0
 I2C2_SCL
-Text Label 3300 8950 2    50   ~ 0
+Text Label 2650 8100 2    50   ~ 0
 I2C2_SDA
-Text Label 6300 9050 2    50   ~ 0
+Text Label 5650 8200 2    50   ~ 0
 I2C2_SCL
-Text Label 6300 8950 2    50   ~ 0
+Text Label 5650 8100 2    50   ~ 0
 I2C2_SDA
-Text Label 9250 9050 2    50   ~ 0
+Text Label 8600 8200 2    50   ~ 0
 I2C2_SCL
-Text Label 9250 8950 2    50   ~ 0
+Text Label 8600 8100 2    50   ~ 0
 I2C2_SDA
-Text Label 12150 9050 2    50   ~ 0
+Text Label 11500 8200 2    50   ~ 0
 I2C2_SCL
-Text Label 12150 8950 2    50   ~ 0
+Text Label 11500 8100 2    50   ~ 0
 I2C2_SDA
-Text Label 4750 1950 2    50   ~ 0
+Text Label 4100 1900 2    50   ~ 0
 GND
-Text Label 7600 1950 2    50   ~ 0
+Text Label 6950 1900 2    50   ~ 0
 GND
-Text Label 10600 1950 2    50   ~ 0
+Text Label 9950 1900 2    50   ~ 0
 GND
-Text Label 10600 4050 2    50   ~ 0
+Text Label 9950 4000 2    50   ~ 0
 GND
-Text Label 7700 4050 2    50   ~ 0
+Text Label 7050 4000 2    50   ~ 0
 GND
-Text Label 4750 4050 2    50   ~ 0
+Text Label 4100 4000 2    50   ~ 0
 GND
-Text Label 1750 4050 2    50   ~ 0
+Text Label 1100 4000 2    50   ~ 0
 GND
-Text Label 4750 6950 2    50   ~ 0
+Text Label 4100 6100 2    50   ~ 0
 GND
-Text Label 7600 6950 2    50   ~ 0
+Text Label 6950 6100 2    50   ~ 0
 GND
-Text Label 10600 6950 2    50   ~ 0
+Text Label 9950 6100 2    50   ~ 0
 GND
-Text Label 10600 9050 2    50   ~ 0
+Text Label 9950 8200 2    50   ~ 0
 GND
-Text Label 7700 9050 2    50   ~ 0
+Text Label 7050 8200 2    50   ~ 0
 GND
-Text Label 4750 9050 2    50   ~ 0
+Text Label 4100 8200 2    50   ~ 0
 GND
-Text Label 1750 9050 2    50   ~ 0
+Text Label 1100 8200 2    50   ~ 0
 GND
 Wire Wire Line
-	11400 8850 12150 8850
+	10750 8000 11500 8000
 Wire Wire Line
-	12150 8750 11400 8750
+	11500 7900 10750 7900
 Wire Wire Line
-	11400 8650 12150 8650
+	10750 7800 11500 7800
 Wire Wire Line
-	12150 8550 11400 8550
+	11500 7700 10750 7700
 Wire Wire Line
-	11400 8450 12150 8450
+	10750 7600 11500 7600
 Wire Wire Line
-	12150 8350 11400 8350
+	11500 7500 10750 7500
 Wire Wire Line
-	11400 8250 12150 8250
+	10750 7400 11500 7400
 Wire Wire Line
-	12150 8150 11400 8150
+	11500 7300 10750 7300
 $Comp
 L dk_Interface-I-O-Expanders:MCP23008-E_P U?
 U 1 1 5F72641B
-P 12650 8650
+P 12000 7800
 AR Path="/5F72641B" Ref="U?"  Part="1" 
-AR Path="/5F71652A/5F72641B" Ref="U?"  Part="1" 
-F 0 "U?" H 12350 9400 60  0000 C CNN
-F 1 "MCP23008-E_P" H 12650 9500 60  0000 C CNN
-F 2 "digikey-footprints:DIP-18_W7.62mm" H 12850 8850 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 8950 60  0001 L CNN
-F 4 "MCP23008-E/P-ND" H 12850 9050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP23008-E/P" H 12850 9150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 12850 9250 60  0001 L CNN "Category"
-F 7 "Interface - I/O Expanders" H 12850 9350 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12850 9450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12850 9550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12850 9650 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 12850 9750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12850 9850 60  0001 L CNN "Status"
-	1    12650 8650
+AR Path="/5F71652A/5F72641B" Ref="U33"  Part="1" 
+F 0 "U33" H 11700 8550 60  0000 C CNN
+F 1 "MCP23008-E_P" H 12000 8650 60  0000 C CNN
+F 2 "digikey-footprints:DIP-18_W7.62mm" H 12200 8000 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 8100 60  0001 L CNN
+F 4 "MCP23008-E/P-ND" H 12200 8200 60  0001 L CNN "Digi-Key_PN"
+F 5 "MCP23008-E/P" H 12200 8300 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12200 8400 60  0001 L CNN "Category"
+F 7 "Interface - I/O Expanders" H 12200 8500 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" H 12200 8600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/MCP23008-E-P/MCP23008-E-P-ND/735951" H 12200 8700 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC I/O EXPANDER I2C 8B 18DIP" H 12200 8800 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 12200 8900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12200 9000 60  0001 L CNN "Status"
+	1    12000 7800
 	1    0    0    -1  
 $EndComp
-Text Label 14550 1700 2    50   ~ 0
-I2C2_SCL
-Text Label 14550 1600 2    50   ~ 0
-I2C2_SDA
 Wire Wire Line
-	14900 1600 14550 1600
-Wire Wire Line
-	14900 1700 14550 1700
-Text Label 14550 1800 2    50   ~ 0
-GND
-Text Label 14550 1900 2    50   ~ 0
-3V3
-Text Label 14550 1400 2    50   ~ 0
-I2C1_SDA
-Text Label 14550 1500 2    50   ~ 0
-I2C1_SCL
-Text Label 14550 2500 2    50   ~ 0
-NCCLR
-Text Label 14550 2400 2    50   ~ 0
-RCLK
-Text Label 14550 2300 2    50   ~ 0
-NGBU
-Text Label 14550 2200 2    50   ~ 0
-NGBL
-Text Label 14550 2100 2    50   ~ 0
-NGAU
-Text Label 14550 2000 2    50   ~ 0
-NGAL
-Wire Wire Line
-	14900 1400 14550 1400
-Wire Wire Line
-	14900 1500 14550 1500
-Text HLabel 14900 1400 2    50   BiDi ~ 0
-I2C1_SDA
-Text HLabel 14900 1500 2    50   BiDi ~ 0
-I2C1_SCL
-Text HLabel 14900 1600 2    50   BiDi ~ 0
-I2C2_SDA
-Text HLabel 14900 1700 2    50   BiDi ~ 0
-I2C2_SCL
-Text HLabel 14900 1800 2    50   UnSpc ~ 0
-GND
-Text HLabel 14900 1900 2    50   UnSpc ~ 0
-3V3
-Text HLabel 14900 2000 2    50   Input ~ 0
-NGAL
-Text HLabel 14900 2100 2    50   Input ~ 0
-NGAU
-Text HLabel 14900 2200 2    50   Input ~ 0
-NGBL
-Text HLabel 14900 2300 2    50   Input ~ 0
-NGBU
-Text HLabel 14900 2400 2    50   Input ~ 0
-RCLK
-Text HLabel 14900 2500 2    50   Input ~ 0
-NCCLR
-Wire Wire Line
-	14550 1800 14900 1800
-Wire Wire Line
-	14900 1900 14550 1900
-Wire Wire Line
-	14550 2000 14900 2000
-Wire Wire Line
-	14900 2100 14550 2100
-Wire Wire Line
-	14550 2200 14900 2200
-Wire Wire Line
-	14900 2300 14550 2300
+	14900 2500 14550 2500
 Wire Wire Line
 	14550 2400 14900 2400
 Wire Wire Line
-	14900 2500 14550 2500
+	14900 2300 14550 2300
+Wire Wire Line
+	14550 2200 14900 2200
+Wire Wire Line
+	14900 2100 14550 2100
+Wire Wire Line
+	14550 2000 14900 2000
+Wire Wire Line
+	14900 1900 14550 1900
+Wire Wire Line
+	14550 1800 14900 1800
+Text HLabel 14900 2500 2    50   Input ~ 0
+NCCLR
+Text HLabel 14900 2400 2    50   Input ~ 0
+RCLK
+Text HLabel 14900 2300 2    50   Input ~ 0
+NGBU
+Text HLabel 14900 2200 2    50   Input ~ 0
+NGBL
+Text HLabel 14900 2100 2    50   Input ~ 0
+NGAU
+Text HLabel 14900 2000 2    50   Input ~ 0
+NGAL
+Text HLabel 14900 1900 2    50   UnSpc ~ 0
+3V3
+Text HLabel 14900 1800 2    50   UnSpc ~ 0
+GND
+Text HLabel 14900 1700 2    50   BiDi ~ 0
+I2C2_SCL
+Text HLabel 14900 1600 2    50   BiDi ~ 0
+I2C2_SDA
+Text HLabel 14900 1500 2    50   BiDi ~ 0
+I2C1_SCL
+Text HLabel 14900 1400 2    50   BiDi ~ 0
+I2C1_SDA
+Wire Wire Line
+	14900 1500 14550 1500
+Wire Wire Line
+	14900 1400 14550 1400
+Text Label 14550 2000 2    50   ~ 0
+NGAL
+Text Label 14550 2100 2    50   ~ 0
+NGAU
+Text Label 14550 2200 2    50   ~ 0
+NGBL
+Text Label 14550 2300 2    50   ~ 0
+NGBU
+Text Label 14550 2400 2    50   ~ 0
+RCLK
+Text Label 14550 2500 2    50   ~ 0
+NCCLR
+Text Label 14550 1500 2    50   ~ 0
+I2C1_SCL
+Text Label 14550 1400 2    50   ~ 0
+I2C1_SDA
+Text Label 14550 1900 2    50   ~ 0
+3V3
+Text Label 14550 1800 2    50   ~ 0
+GND
+Wire Wire Line
+	14900 1700 14550 1700
+Wire Wire Line
+	14900 1600 14550 1600
+Text Label 14550 1600 2    50   ~ 0
+I2C2_SDA
+Text Label 14550 1700 2    50   ~ 0
+I2C2_SCL
+$Sheet
+S 14550 3100 1100 3400
+U 5FA05D54
+F0 "input_protection_circuit" 50
+F1 "input_protection_circuit.sch" 50
+F2 "CHANNEL_OUT_0" O L 14550 3200 50 
+F3 "CHANNEL_OUT_1" O L 14550 3300 50 
+F4 "CHANNEL_OUT_2" O L 14550 3400 50 
+F5 "CHANNEL_OUT_3" O L 14550 3500 50 
+F6 "CHANNEL_OUT_4" O L 14550 3600 50 
+F7 "CHANNEL_OUT_5" O L 14550 3700 50 
+F8 "CHANNEL_OUT_6" O L 14550 3800 50 
+F9 "CHANNEL_OUT_7" O L 14550 3900 50 
+F10 "CHANNEL_OUT_8" O L 14550 4000 50 
+F11 "CHANNEL_OUT_9" O L 14550 4100 50 
+F12 "CHANNEL_OUT_10" O L 14550 4200 50 
+F13 "CHANNEL_OUT_11" O L 14550 4300 50 
+F14 "CHANNEL_OUT_12" O L 14550 4400 50 
+F15 "CHANNEL_OUT_13" O L 14550 4500 50 
+F16 "CHANNEL_OUT_14" O L 14550 4600 50 
+F17 "CHANNEL_OUT_15" O L 14550 4700 50 
+F18 "CHANNEL_OUT_16" O L 14550 4800 50 
+F19 "CHANNEL_OUT_17" O L 14550 4900 50 
+F20 "CHANNEL_OUT_18" O L 14550 5000 50 
+F21 "CHANNEL_OUT_19" O L 14550 5100 50 
+F22 "CHANNEL_OUT_20" O L 14550 5200 50 
+F23 "CHANNEL_OUT_21" O L 14550 5300 50 
+F24 "CHANNEL_OUT_22" O L 14550 5400 50 
+F25 "CHANNEL_OUT_23" O L 14550 5500 50 
+F26 "CHANNEL_OUT_24" O L 14550 5600 50 
+F27 "CHANNEL_OUT_25" O L 14550 5700 50 
+F28 "CHANNEL_OUT_26" O L 14550 5800 50 
+F29 "CHANNEL_OUT_27" O L 14550 5900 50 
+F30 "CHANNEL_OUT_28" O L 14550 6000 50 
+F31 "CHANNEL_OUT_29" O L 14550 6100 50 
+F32 "CHANNEL_OUT_30" O L 14550 6200 50 
+F33 "CHANNEL_OUT_31" O L 14550 6300 50 
+$EndSheet
 $EndSCHEMATC
