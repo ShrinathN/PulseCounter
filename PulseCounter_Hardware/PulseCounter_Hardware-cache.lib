@@ -188,27 +188,6 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Crystal
-#
-DEF Device_Crystal Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "Device_Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -328,6 +307,31 @@ X PD1 6 -700 800 100 R 50 50 1 1 I
 X NRST 7 -700 1300 100 R 50 50 1 1 I
 X VSSA 8 100 -1500 100 U 50 50 1 1 W
 X VDDA 9 200 1500 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dk_Crystals_NX3225GD-8MHZ-STD-CRA-3
+#
+DEF dk_Crystals_NX3225GD-8MHZ-STD-CRA-3 XTAL 0 40 Y Y 1 F N
+F0 "XTAL" 0 150 50 H V C CNN
+F1 "dk_Crystals_NX3225GD-8MHZ-STD-CRA-3" 0 -150 50 H V C CNN
+F2 "digikey-footprints:SMD-2_3.2x2.5mm" 200 200 60 H I L CNN
+F3 "http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf" 200 300 60 H I L CNN
+F4 "644-1178-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NX3225GD-8MHZ-STD-CRA-3" 200 500 60 H I L CNN "MPN"
+F6 "Crystals, Oscillators, Resonators" 200 600 60 H I L CNN "Category"
+F7 "Crystals" 200 700 60 H I L CNN "Family"
+F8 "http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/ndk-america-inc/NX3225GD-8MHZ-STD-CRA-3/644-1178-1-ND/3125567" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CRYSTAL 8.0000MHZ 8PF SMD" 200 1000 60 H I L CNN "Description"
+F11 "NDK America, Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -25 75 25 -75 1 1 0 F
+P 2 1 1 0 -50 75 -50 -75 N
+P 2 1 1 0 50 75 50 -75 N
+X ~ 1 -150 0 100 R 50 50 1 1 B
+X ~ 2 150 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -481,6 +485,36 @@ S -200 100 200 -200 1 1 0 f
 X GND 1 0 -300 100 U 50 50 1 1 W
 X VOUT 2 300 0 100 L 50 50 1 1 w
 X VIN 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dk_Transistors-Bipolar-BJT-Single_MMBT3904-TP
+#
+DEF dk_Transistors-Bipolar-BJT-Single_MMBT3904-TP Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "dk_Transistors-Bipolar-BJT-Single_MMBT3904-TP" 206 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" 200 300 60 H I L CNN
+F4 "MMBT3904TPMSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MMBT3904-TP" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN 40V 0.2A SOT23" 200 1000 60 H I L CNN "Description"
+F11 "Micro Commercial Co" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X B 1 -200 0 100 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
