@@ -3768,8 +3768,8 @@ L Device:Varistor RV?
 U 1 1 5F70CDB5
 P 3700 1350
 AR Path="/5F70CDB5" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F70CDB5" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 1400 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F70CDB5" Ref="RV9"  Part="1" 
+F 0 "RV9" H 3750 1400 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 750 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 1350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 1350 50  0001 C CNN
@@ -3783,8 +3783,8 @@ L Device:Varistor RV?
 U 1 1 5F70D5E6
 P 5650 1350
 AR Path="/5F70D5E6" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F70D5E6" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 1400 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F70D5E6" Ref="RV17"  Part="1" 
+F 0 "RV17" H 5700 1400 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 750 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 1350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 1350 50  0001 C CNN
@@ -3798,8 +3798,8 @@ L Device:Varistor RV?
 U 1 1 5F70DCB5
 P 7600 1350
 AR Path="/5F70DCB5" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F70DCB5" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 1400 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F70DCB5" Ref="RV25"  Part="1" 
+F 0 "RV25" H 7650 1400 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 750 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 1350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 1350 50  0001 C CNN
@@ -3813,8 +3813,8 @@ L Device:Varistor RV?
 U 1 1 5F70EB2A
 P 7600 2600
 AR Path="/5F70EB2A" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F70EB2A" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 2650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F70EB2A" Ref="RV26"  Part="1" 
+F 0 "RV26" H 7650 2650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 2000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 2600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 2600 50  0001 C CNN
@@ -3828,8 +3828,8 @@ L Device:Varistor RV?
 U 1 1 5F70F1ED
 P 5650 2600
 AR Path="/5F70F1ED" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F70F1ED" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 2650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F70F1ED" Ref="RV18"  Part="1" 
+F 0 "RV18" H 5700 2650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 2000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 2600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 2600 50  0001 C CNN
@@ -3843,8 +3843,8 @@ L Device:Varistor RV?
 U 1 1 5F70F644
 P 3700 2600
 AR Path="/5F70F644" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F70F644" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 2650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F70F644" Ref="RV10"  Part="1" 
+F 0 "RV10" H 3750 2650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 2000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 2600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 2600 50  0001 C CNN
@@ -3858,8 +3858,8 @@ L Device:Varistor RV?
 U 1 1 5F70FB5B
 P 1750 2600
 AR Path="/5F70FB5B" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F70FB5B" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1800 2650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F70FB5B" Ref="RV2"  Part="1" 
+F 0 "RV2" H 1800 2650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 1600 2000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 1680 2600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 1750 2600 50  0001 C CNN
@@ -3873,8 +3873,8 @@ L Device:Varistor RV?
 U 1 1 5F710114
 P 1750 3850
 AR Path="/5F710114" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F710114" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1800 3900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F710114" Ref="RV3"  Part="1" 
+F 0 "RV3" H 1800 3900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 1600 3250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 1680 3850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 1750 3850 50  0001 C CNN
@@ -3888,8 +3888,8 @@ L Device:Varistor RV?
 U 1 1 5F7105AD
 P 3700 3850
 AR Path="/5F7105AD" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F7105AD" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 3900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F7105AD" Ref="RV11"  Part="1" 
+F 0 "RV11" H 3750 3900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 3250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 3850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 3850 50  0001 C CNN
@@ -3903,8 +3903,8 @@ L Device:Varistor RV?
 U 1 1 5F710920
 P 5650 3850
 AR Path="/5F710920" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F710920" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 3900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F710920" Ref="RV19"  Part="1" 
+F 0 "RV19" H 5700 3900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 3250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 3850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 3850 50  0001 C CNN
@@ -3918,8 +3918,8 @@ L Device:Varistor RV?
 U 1 1 5F710D53
 P 7600 3850
 AR Path="/5F710D53" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F710D53" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 3900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F710D53" Ref="RV27"  Part="1" 
+F 0 "RV27" H 7650 3900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 3250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 3850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 3850 50  0001 C CNN
@@ -3933,8 +3933,8 @@ L Device:Varistor RV?
 U 1 1 5F71126C
 P 7600 5100
 AR Path="/5F71126C" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F71126C" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 5150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F71126C" Ref="RV28"  Part="1" 
+F 0 "RV28" H 7650 5150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 4500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 5100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 5100 50  0001 C CNN
@@ -3948,8 +3948,8 @@ L Device:Varistor RV?
 U 1 1 5F7116C5
 P 5650 5100
 AR Path="/5F7116C5" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F7116C5" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 5150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F7116C5" Ref="RV20"  Part="1" 
+F 0 "RV20" H 5700 5150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 4500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 5100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 5100 50  0001 C CNN
@@ -3963,8 +3963,8 @@ L Device:Varistor RV?
 U 1 1 5F711A4A
 P 3700 5100
 AR Path="/5F711A4A" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F711A4A" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 5150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F711A4A" Ref="RV12"  Part="1" 
+F 0 "RV12" H 3750 5150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 4500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 5100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 5100 50  0001 C CNN
@@ -3978,8 +3978,8 @@ L Device:Varistor RV?
 U 1 1 5F712013
 P 1750 5100
 AR Path="/5F712013" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F712013" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1800 5150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F712013" Ref="RV4"  Part="1" 
+F 0 "RV4" H 1800 5150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 1600 4500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 1680 5100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 1750 5100 50  0001 C CNN
@@ -3993,8 +3993,8 @@ L Device:Varistor RV?
 U 1 1 5F712488
 P 1750 6350
 AR Path="/5F712488" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F712488" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1800 6400 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F712488" Ref="RV5"  Part="1" 
+F 0 "RV5" H 1800 6400 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 1600 5750 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 1680 6350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 1750 6350 50  0001 C CNN
@@ -4008,8 +4008,8 @@ L Device:Varistor RV?
 U 1 1 5F7128AB
 P 3700 6350
 AR Path="/5F7128AB" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F7128AB" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 6400 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F7128AB" Ref="RV13"  Part="1" 
+F 0 "RV13" H 3750 6400 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 5750 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 6350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 6350 50  0001 C CNN
@@ -4023,8 +4023,8 @@ L Device:Varistor RV?
 U 1 1 5F712CDE
 P 5650 6350
 AR Path="/5F712CDE" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F712CDE" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 6400 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F712CDE" Ref="RV21"  Part="1" 
+F 0 "RV21" H 5700 6400 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 5750 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 6350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 6350 50  0001 C CNN
@@ -4038,8 +4038,8 @@ L Device:Varistor RV?
 U 1 1 5F712FEB
 P 7600 6350
 AR Path="/5F712FEB" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F712FEB" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 6400 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F712FEB" Ref="RV29"  Part="1" 
+F 0 "RV29" H 7650 6400 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 5750 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 6350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 6350 50  0001 C CNN
@@ -4053,8 +4053,8 @@ L Device:Varistor RV?
 U 1 1 5F713434
 P 7600 7600
 AR Path="/5F713434" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F713434" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 7650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F713434" Ref="RV30"  Part="1" 
+F 0 "RV30" H 7650 7650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 7000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 7600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 7600 50  0001 C CNN
@@ -4068,8 +4068,8 @@ L Device:Varistor RV?
 U 1 1 5F713911
 P 5650 7600
 AR Path="/5F713911" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F713911" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 7650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F713911" Ref="RV22"  Part="1" 
+F 0 "RV22" H 5700 7650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 7000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 7600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 7600 50  0001 C CNN
@@ -4083,8 +4083,8 @@ L Device:Varistor RV?
 U 1 1 5F713DE0
 P 3700 7600
 AR Path="/5F713DE0" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F713DE0" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 7650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F713DE0" Ref="RV14"  Part="1" 
+F 0 "RV14" H 3750 7650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 7000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 7600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 7600 50  0001 C CNN
@@ -4098,8 +4098,8 @@ L Device:Varistor RV?
 U 1 1 5F7142C5
 P 1750 7600
 AR Path="/5F7142C5" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F7142C5" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1800 7650 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F7142C5" Ref="RV6"  Part="1" 
+F 0 "RV6" H 1800 7650 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 1600 7000 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 1680 7600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 1750 7600 50  0001 C CNN
@@ -4113,8 +4113,8 @@ L Device:Varistor RV?
 U 1 1 5F7146F8
 P 1750 8850
 AR Path="/5F7146F8" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F7146F8" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1800 8900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F7146F8" Ref="RV7"  Part="1" 
+F 0 "RV7" H 1800 8900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 1600 8250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 1680 8850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 1750 8850 50  0001 C CNN
@@ -4128,8 +4128,8 @@ L Device:Varistor RV?
 U 1 1 5F714B4F
 P 3700 8850
 AR Path="/5F714B4F" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F714B4F" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 8900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F714B4F" Ref="RV15"  Part="1" 
+F 0 "RV15" H 3750 8900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 8250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 8850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 8850 50  0001 C CNN
@@ -4143,8 +4143,8 @@ L Device:Varistor RV?
 U 1 1 5F714ED4
 P 5650 8850
 AR Path="/5F714ED4" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F714ED4" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 8900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F714ED4" Ref="RV23"  Part="1" 
+F 0 "RV23" H 5700 8900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 8250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 8850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 8850 50  0001 C CNN
@@ -4158,8 +4158,8 @@ L Device:Varistor RV?
 U 1 1 5F7153A9
 P 7600 8850
 AR Path="/5F7153A9" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F7153A9" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 8900 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F7153A9" Ref="RV31"  Part="1" 
+F 0 "RV31" H 7650 8900 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 8250 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 8850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 8850 50  0001 C CNN
@@ -4173,8 +4173,8 @@ L Device:Varistor RV?
 U 1 1 5F715BBC
 P 7600 10100
 AR Path="/5F715BBC" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F715BBC" Ref="RV?"  Part="1" 
-F 0 "RV?" H 7650 10150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F715BBC" Ref="RV32"  Part="1" 
+F 0 "RV32" H 7650 10150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 7450 9500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 7530 10100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 7600 10100 50  0001 C CNN
@@ -4188,8 +4188,8 @@ L Device:Varistor RV?
 U 1 1 5F715FFB
 P 5650 10100
 AR Path="/5F715FFB" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F715FFB" Ref="RV?"  Part="1" 
-F 0 "RV?" H 5700 10150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F715FFB" Ref="RV24"  Part="1" 
+F 0 "RV24" H 5700 10150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 5500 9500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 5580 10100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 5650 10100 50  0001 C CNN
@@ -4203,8 +4203,8 @@ L Device:Varistor RV?
 U 1 1 5F716386
 P 3700 10100
 AR Path="/5F716386" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F716386" Ref="RV?"  Part="1" 
-F 0 "RV?" H 3750 10150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F716386" Ref="RV16"  Part="1" 
+F 0 "RV16" H 3750 10150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 3550 9500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 3630 10100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 3700 10100 50  0001 C CNN
@@ -4218,8 +4218,8 @@ L Device:Varistor RV?
 U 1 1 5F716A03
 P 1750 10100
 AR Path="/5F716A03" Ref="RV?"  Part="1" 
-AR Path="/5F71652A/5FA05D54/5F716A03" Ref="RV?"  Part="1" 
-F 0 "RV?" H 1800 10150 50  0000 L CNN
+AR Path="/5F71652A/5FA05D54/5F716A03" Ref="RV8"  Part="1" 
+F 0 "RV8" H 1800 10150 50  0000 L CNN
 F 1 "MOV-20D180KTR" V 1600 9500 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D21.5mm_W4.3mm_P10mm" V 1680 10100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/MOV20D.pdf" H 1750 10100 50  0001 C CNN

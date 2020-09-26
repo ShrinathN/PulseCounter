@@ -357,7 +357,7 @@ Text Label 8350 4350 2    50   ~ 0
 NGBU
 Text Label 9100 4150 0    50   ~ 0
 NGBU_BUS
-Text Label 10200 4150 0    50   ~ 0
+Text Label 10550 4200 0    50   ~ 0
 RCLK_BUS
 Text Label 8000 5300 0    50   ~ 0
 NCCLR_BUS
@@ -470,57 +470,54 @@ Wire Wire Line
 Connection ~ 4050 1450
 Wire Wire Line
 	4050 1450 4050 1600
-Text Label 10050 3850 1    50   ~ 0
+Text Label 10400 3750 1    50   ~ 0
 3V3
 $Comp
 L Device:R R15
 U 1 1 5F74ED3D
-P 9600 4350
-F 0 "R15" V 9393 4350 50  0000 C CNN
-F 1 "1K" V 9484 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4350 50  0001 C CNN
-F 3 "~" H 9600 4350 50  0001 C CNN
-	1    9600 4350
+P 9950 3950
+F 0 "R15" V 9743 3950 50  0000 C CNN
+F 1 "1K" V 9834 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9880 3950 50  0001 C CNN
+F 3 "~" H 9950 3950 50  0001 C CNN
+	1    9950 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R17
 U 1 1 5F74ED43
-P 10050 4000
-F 0 "R17" H 10120 4046 50  0000 L CNN
-F 1 "1K" H 10120 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9980 4000 50  0001 C CNN
-F 3 "~" H 10050 4000 50  0001 C CNN
-	1    10050 4000
+P 10400 4400
+F 0 "R17" H 10470 4446 50  0000 L CNN
+F 1 "1K" H 10470 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10330 4400 50  0001 C CNN
+F 3 "~" H 10400 4400 50  0001 C CNN
+	1    10400 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 4150 10200 4150
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:MMBT3904-TP Q5
 U 1 1 5F74ED53
-P 9950 4350
-F 0 "Q5" H 9700 4200 60  0000 L CNN
-F 1 "MMBT3904-TP" H 9300 4100 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 10150 4550 60  0001 L CNN
-F 3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 10150 4650 60  0001 L CNN
-F 4 "MMBT3904TPMSCT-ND" H 10150 4750 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT3904-TP" H 10150 4850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 10150 4950 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 10150 5050 60  0001 L CNN "Family"
-F 8 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 10150 5150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 10150 5250 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.2A SOT23" H 10150 5350 60  0001 L CNN "Description"
-F 11 "Micro Commercial Co" H 10150 5450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10150 5550 60  0001 L CNN "Status"
-	1    9950 4350
+P 10300 3950
+F 0 "Q5" H 10050 3800 60  0000 L CNN
+F 1 "MMBT3904-TP" H 9650 3700 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 10500 4150 60  0001 L CNN
+F 3 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 10500 4250 60  0001 L CNN
+F 4 "MMBT3904TPMSCT-ND" H 10500 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMBT3904-TP" H 10500 4450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 10500 4550 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 10500 4650 60  0001 L CNN "Family"
+F 8 "https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf" H 10500 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 10500 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.2A SOT23" H 10500 4950 60  0001 L CNN "Description"
+F 11 "Micro Commercial Co" H 10500 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10500 5150 60  0001 L CNN "Status"
+	1    10300 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 10050 4150
-Text Label 10050 4650 3    50   ~ 0
+Text Label 10400 4550 3    50   ~ 0
 GND
 Wire Wire Line
-	10050 4650 10050 4550
+	10400 4250 10400 4200
 Text Label 8950 5000 1    50   ~ 0
 3V3
 $Comp
@@ -727,7 +724,7 @@ Wire Wire Line
 	7850 5800 7850 5700
 Text Label 8000 4150 0    50   ~ 0
 NGBL_BUS
-Text Label 9450 4350 2    50   ~ 0
+Text Label 9800 3950 2    50   ~ 0
 RCLK
 Text Label 7250 5500 2    50   ~ 0
 NCCLR
@@ -757,4 +754,9 @@ Wire Wire Line
 	4350 1600 4800 1600
 Wire Wire Line
 	4350 1300 4800 1300
+Wire Wire Line
+	10400 4200 10550 4200
+Connection ~ 10400 4200
+Wire Wire Line
+	10400 4200 10400 4150
 $EndSCHEMATC
